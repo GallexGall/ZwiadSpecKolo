@@ -2194,3 +2194,86 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.06.04-14.48.58:346][347]SourceControl:  rewrite Content/School/pientra/Bud.uasset (80%)
 [2022.06.04-14.48.58:346][347]SourceControl:  create mode 100644 Content/School/pientra/klatka/klatka0_schody_po_naprawie.uasset
 [2022.06.04-14.48.58:360][347]SourceControl: Commited [testy-budynku f6abb07] schody.
+[2022.06.04-14.49.28:265][596]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2022.06.04-14.49.28:445][596]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/FirstPersonExampleMap_Auto15AE96E5F4BFD5CA1D6506B8D1B67911C.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2022.06.04-14.49.28:457][596]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.220
+[2022.06.04-14.49.28:457][596]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.220
+[2022.06.04-14.49.28:458][596]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/School/pientra/klatka/Default_OBJ_001] ([1] browsable assets)...
+[2022.06.04-14.49.28:470][596]OBJ SavePackage:     Rendered thumbnail for [Material /Game/School/pientra/klatka/Default_OBJ_001.Default_OBJ_001]
+[2022.06.04-14.49.28:470][596]OBJ SavePackage: Finished generating thumbnails for package [/Game/School/pientra/klatka/Default_OBJ_001]
+[2022.06.04-14.49.28:476][596]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Default_OBJ_001_Auto1CEA363E540825DA53997B5B66E32F2F1.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/klatka/Default_OBJ_001_Auto1.uasset'
+[2022.06.04-14.49.28:476][596]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/School/pientra/klatka/klatka0_Cube_004] ([1] browsable assets)...
+[2022.06.04-14.49.28:484][596]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/School/pientra/klatka/klatka0_Cube_004.klatka0_Cube_004]
+[2022.06.04-14.49.28:485][596]OBJ SavePackage: Finished generating thumbnails for package [/Game/School/pientra/klatka/klatka0_Cube_004]
+[2022.06.04-14.49.28:491][596]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/klatka0_Cube_004_Auto1592D1C2F4E9F3B435588B8A43A76B718.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/klatka/klatka0_Cube_004_Auto1.uasset'
+[2022.06.04-14.49.28:492][596]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/School/pientra/klatka/Material_019] ([1] browsable assets)...
+[2022.06.04-14.49.28:500][596]OBJ SavePackage:     Rendered thumbnail for [Material /Game/School/pientra/klatka/Material_019.Material_019]
+[2022.06.04-14.49.28:500][596]OBJ SavePackage: Finished generating thumbnails for package [/Game/School/pientra/klatka/Material_019]
+[2022.06.04-14.49.28:506][596]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Material_019_Auto180C5EBB841F18A4CFF9EF7B1373B8D3F.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/klatka/Material_019_Auto1.uasset'
+[2022.06.04-14.49.28:507][596]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/School/pientra/klatka/klatka0_Cube_003] ([1] browsable assets)...
+[2022.06.04-14.49.28:515][596]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/School/pientra/klatka/klatka0_Cube_003.klatka0_Cube_003]
+[2022.06.04-14.49.28:515][596]OBJ SavePackage: Finished generating thumbnails for package [/Game/School/pientra/klatka/klatka0_Cube_003]
+[2022.06.04-14.49.28:522][596]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/klatka0_Cube_003_Auto1590967934E40511FEC1AF69DBF3A8667.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/klatka/klatka0_Cube_003_Auto1.uasset'
+[2022.06.04-14.49.28:522][596]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/School/pientra/klatka/Material_020] ([1] browsable assets)...
+[2022.06.04-14.49.28:531][596]OBJ SavePackage:     Rendered thumbnail for [Material /Game/School/pientra/klatka/Material_020.Material_020]
+[2022.06.04-14.49.28:531][596]OBJ SavePackage: Finished generating thumbnails for package [/Game/School/pientra/klatka/Material_020]
+[2022.06.04-14.49.28:537][596]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Material_020_Auto12DF016BF4783C6D5CE858CB304A24BC0.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/klatka/Material_020_Auto1.uasset'
+[2022.06.04-14.49.28:538][596]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/School/pientra/klatka/klatka0_Person] ([1] browsable assets)...
+[2022.06.04-14.49.28:546][596]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/School/pientra/klatka/klatka0_Person.klatka0_Person]
+[2022.06.04-14.49.28:546][596]OBJ SavePackage: Finished generating thumbnails for package [/Game/School/pientra/klatka/klatka0_Person]
+[2022.06.04-14.49.28:568][596]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/klatka0_Person_Auto1B967BFCA4DE8B44BC45E888A3260A3C4.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/klatka/klatka0_Person_Auto1.uasset'
+[2022.06.04-14.49.28:569][596]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/School/pientra/klatka/Default_OBJ] ([1] browsable assets)...
+[2022.06.04-14.49.28:577][596]OBJ SavePackage:     Rendered thumbnail for [Material /Game/School/pientra/klatka/Default_OBJ.Default_OBJ]
+[2022.06.04-14.49.28:577][596]OBJ SavePackage: Finished generating thumbnails for package [/Game/School/pientra/klatka/Default_OBJ]
+[2022.06.04-14.49.28:583][596]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Default_OBJ_Auto1B04C046949C2508A012569B0F71F3706.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/klatka/Default_OBJ_Auto1.uasset'
+[2022.06.04-14.49.28:584][596]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/School/pientra/klatka/Default_OBJ_003] ([1] browsable assets)...
+[2022.06.04-14.49.28:592][596]OBJ SavePackage:     Rendered thumbnail for [Material /Game/School/pientra/klatka/Default_OBJ_003.Default_OBJ_003]
+[2022.06.04-14.49.28:592][596]OBJ SavePackage: Finished generating thumbnails for package [/Game/School/pientra/klatka/Default_OBJ_003]
+[2022.06.04-14.49.28:598][596]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Default_OBJ_003_Auto137AAA0124088A9B5A867AA8244530D7D.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/klatka/Default_OBJ_003_Auto1.uasset'
+[2022.06.04-14.49.28:599][596]LogFileHelpers: Auto-saving content packages took 0.141
+[2022.06.04-14.49.54:650][530]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2022.06.04-14.49.57:502][530]LogSlate: Window 'Save Content' being destroyed
+[2022.06.04-14.50.02:371][856]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2022.06.04-14.50.02:541][856]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.06.04-14.50.02:711][856]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/FirstPersonExampleMapDF58C9CA4E9C7B1608C84387FAA266D3.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2022.06.04-14.50.02:723][856]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.208
+[2022.06.04-14.50.02:723][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/School/pientra/klatka/Default_OBJ_001" FILE="../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/klatka/Default_OBJ_001.uasset" SILENT=true
+[2022.06.04-14.50.02:724][856]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Default_OBJ_001B503AC604D5F7B07F2C71CA313F1F551.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/klatka/Default_OBJ_001.uasset'
+[2022.06.04-14.50.03:409][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/School/pientra/klatka/klatka0_Cube_004" FILE="../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/klatka/klatka0_Cube_004.uasset" SILENT=true
+[2022.06.04-14.50.03:412][856]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/klatka0_Cube_0047FCDEA3B4D520CCC557331B11421772F.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/klatka/klatka0_Cube_004.uasset'
+[2022.06.04-14.50.03:570][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/School/pientra/klatka/Material_019" FILE="../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/klatka/Material_019.uasset" SILENT=true
+[2022.06.04-14.50.03:572][856]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Material_01968AED4AB4614DB510A64FEA745FC5156.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/klatka/Material_019.uasset'
+[2022.06.04-14.50.03:728][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/School/pientra/klatka/klatka0_Cube_003" FILE="../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/klatka/klatka0_Cube_003.uasset" SILENT=true
+[2022.06.04-14.50.03:730][856]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/klatka0_Cube_0038BB7A7F044D7FD25033302AAC8B9C790.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/klatka/klatka0_Cube_003.uasset'
+[2022.06.04-14.50.03:890][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/School/pientra/klatka/Material_020" FILE="../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/klatka/Material_020.uasset" SILENT=true
+[2022.06.04-14.50.03:891][856]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Material_02012413B0249F0ABEAB7FC45AACD4D13DD.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/klatka/Material_020.uasset'
+[2022.06.04-14.50.04:063][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/School/pientra/klatka/klatka0_Person" FILE="../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/klatka/klatka0_Person.uasset" SILENT=true
+[2022.06.04-14.50.04:080][856]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/klatka0_Person60D3C03F4EB5E5FD35E238AD8BA47225.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/klatka/klatka0_Person.uasset'
+[2022.06.04-14.50.04:254][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/School/pientra/klatka/Default_OBJ" FILE="../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/klatka/Default_OBJ.uasset" SILENT=true
+[2022.06.04-14.50.04:256][856]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Default_OBJ57173C954BB76AF702F41FA8CFA57C9A.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/klatka/Default_OBJ.uasset'
+[2022.06.04-14.50.04:422][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/School/pientra/klatka/Default_OBJ_003" FILE="../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/klatka/Default_OBJ_003.uasset" SILENT=true
+[2022.06.04-14.50.04:424][856]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Default_OBJ_0034424514945BE19570258C2AA5CF92F3D.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/klatka/Default_OBJ_003.uasset'
+[2022.06.04-14.50.04:662][856]AssetCheck: New page: Asset Save: multiple assets
+[2022.06.04-14.50.04:662][856]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2022.06.04-14.50.04:662][856]LogContentValidation: Display: Validating Material /Game/School/pientra/klatka/Default_OBJ_001.Default_OBJ_001
+[2022.06.04-14.50.04:662][856]LogContentValidation: Display: Validating StaticMesh /Game/School/pientra/klatka/klatka0_Cube_004.klatka0_Cube_004
+[2022.06.04-14.50.04:662][856]LogContentValidation: Display: Validating Material /Game/School/pientra/klatka/Material_019.Material_019
+[2022.06.04-14.50.04:662][856]LogContentValidation: Display: Validating StaticMesh /Game/School/pientra/klatka/klatka0_Cube_003.klatka0_Cube_003
+[2022.06.04-14.50.04:662][856]LogContentValidation: Display: Validating Material /Game/School/pientra/klatka/Material_020.Material_020
+[2022.06.04-14.50.04:662][856]LogContentValidation: Display: Validating StaticMesh /Game/School/pientra/klatka/klatka0_Person.klatka0_Person
+[2022.06.04-14.50.04:662][856]LogContentValidation: Display: Validating Material /Game/School/pientra/klatka/Default_OBJ.Default_OBJ
+[2022.06.04-14.50.04:662][856]LogContentValidation: Display: Validating Material /Game/School/pientra/klatka/Default_OBJ_003.Default_OBJ_003
+[2022.06.04-14.50.07:163][  8]SourceControl: fatal: F:/Dane/EpicProgram/UE_4.24/Engine/Content: 'F:/Dane/EpicProgram/UE_4.24/Engine/Content' is outside repository at 'F:/Dane/EpicProjects/ZwiadSpecKolo'
+[2022.06.04-14.50.16:342][  8]LogSlate: Window 'Submit Files' being destroyed
+[2022.06.04-14.50.17:479][  8]LogSourceControl: commit successful: [testy-budynku e1b475a] zminay przy schodach
+[2022.06.04-14.50.17:550][  8]SourceControl: [testy-budynku e1b475a] zminay przy schodach
+[2022.06.04-14.50.17:550][  8]SourceControl:  9 files changed, 0 insertions(+), 0 deletions(-)
+[2022.06.04-14.50.17:550][  8]SourceControl:  create mode 100644 Content/School/pientra/klatka/Default_OBJ.uasset
+[2022.06.04-14.50.17:550][  8]SourceControl:  create mode 100644 Content/School/pientra/klatka/Default_OBJ_001.uasset
+[2022.06.04-14.50.17:550][  8]SourceControl:  create mode 100644 Content/School/pientra/klatka/Default_OBJ_003.uasset
+[2022.06.04-14.50.17:550][  8]SourceControl:  create mode 100644 Content/School/pientra/klatka/Material_019.uasset
+[2022.06.04-14.50.17:550][  8]SourceControl:  create mode 100644 Content/School/pientra/klatka/Material_020.uasset
+[2022.06.04-14.50.17:550][  8]SourceControl:  create mode 100644 Content/School/pientra/klatka/klatka0_Cube_003.uasset
+[2022.06.04-14.50.17:550][  8]SourceControl:  create mode 100644 Content/School/pientra/klatka/klatka0_Cube_004.uasset
+[2022.06.04-14.50.17:550][  8]SourceControl:  create mode 100644 Content/School/pientra/klatka/klatka0_Person.uasset
+[2022.06.04-14.50.17:562][  8]SourceControl: Commited [testy-budynku e1b475a] zminay przy schodach.
