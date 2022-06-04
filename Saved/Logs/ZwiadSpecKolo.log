@@ -1346,3 +1346,851 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.06.04-14.35.55:918][885]SourceControl:  create mode 100644 Content/School/pientra/p0/p0_Person.uasset
 [2022.06.04-14.35.55:918][885]SourceControl:  create mode 100644 Content/School/pientra/p0/p0_parter.uasset
 [2022.06.04-14.35.55:930][885]SourceControl: Commited [testy-budynku 88ee6a3] nowy P0.
+[2022.06.04-14.36.38:749][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2022.06.04-14.36.42:789][297]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_C_3.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_C_3.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.42:789][297]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.42:790][297]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.42:791][297]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.42:795][297]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.42:807][298]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.42:809][298]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.42:821][299]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.42:825][299]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.42:836][300]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.42:846][301]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.42:850][301]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.42:859][302]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.42:870][303]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.42:872][303]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.42:882][304]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.42:892][305]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.42:902][306]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.42:904][306]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.42:914][307]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.42:924][308]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.42:935][309]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.42:945][310]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:364][360]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:375][361]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:377][361]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:388][362]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:398][363]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:402][363]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:412][364]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:416][364]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:426][365]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:437][366]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:439][366]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:449][367]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:459][368]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:464][368]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:473][369]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:484][370]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:488][370]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:498][371]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:508][372]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:511][372]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:521][373]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:565][378]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:592][381]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:642][387]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:663][389]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:673][390]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:684][391]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:688][391]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:697][392]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:708][393]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:710][393]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:721][394]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:731][395]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:735][395]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:744][396]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:755][397]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:766][398]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:768][398]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:779][399]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:789][400]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:791][400]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:802][401]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:812][402]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:814][402]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.43:991][423]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:002][424]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:011][425]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:016][425]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:025][426]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:036][427]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:046][428]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:048][428]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:058][429]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:069][430]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:071][430]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:131][437]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:135][437]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:145][438]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:155][439]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:159][439]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:169][440]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:180][441]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:184][441]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:194][442]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:204][443]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:206][443]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:217][444]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:227][445]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:232][445]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:249][447]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:516][478]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_C_4.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_C_4.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:517][478]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:521][478]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:521][478]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:522][478]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.44:523][478]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.47:578][819]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.47:579][819]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.55:336][732]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.55:337][732]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.57:367][971]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.36.57:368][971]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.08:964][325]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.08:973][326]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.08:982][327]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.08:991][328]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:001][329]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:010][330]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:020][331]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:028][332]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:037][333]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:047][334]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:055][335]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:065][336]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:074][337]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:083][338]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:093][339]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:102][340]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:111][341]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:129][343]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:138][344]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:155][346]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:164][347]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:182][349]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:232][355]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:258][358]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:284][361]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:293][362]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:302][363]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:311][364]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:320][365]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:329][366]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:338][367]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:347][368]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:356][369]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:366][370]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:374][371]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:392][373]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:576][395]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:593][397]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:603][398]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:612][399]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:621][400]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:630][401]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:639][402]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:673][406]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:691][408]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:700][409]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:784][419]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:810][422]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:827][424]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:845][426]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:854][427]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:871][429]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:880][430]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:889][431]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:899][432]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:908][433]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:918][434]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:927][435]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:936][436]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:945][437]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:955][438]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:964][439]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:982][441]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.09:991][442]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.10:009][444]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.10:043][448]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.10:102][455]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.10:144][460]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.10:195][466]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.10:587][513]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.10:596][514]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.10:605][515]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.10:614][516]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.10:623][517]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.10:634][518]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.10:644][519]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.10:653][520]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.10:662][521]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.10:680][523]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.10:706][526]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.10:732][529]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.10:749][531]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.10:766][533]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.10:783][535]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.10:801][537]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.10:811][538]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.10:820][539]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.10:838][541]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.11:648][638]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.11:899][668]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.11:917][670]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.12:042][685]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.27:111][428]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.27:155][433]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.28:132][550]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.28:158][553]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.29:520][716]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.30:430][825]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.32:307][ 50]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.41:872][174]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_3:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.41:872][174]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.41:873][174]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.41:874][174]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.41:874][174]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_3:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.41:875][174]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.41:883][174]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.49:713][ 77]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (parter)
+[2022.06.04-14.37.50:771][199]Cmd: DELETE
+[2022.06.04-14.37.50:771][199]Cmd: ACTOR DELETE
+[2022.06.04-14.37.50:773][199]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.06.04-14.37.50:805][199]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2022.06.04-14.37.50:806][199]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2022.06.04-14.37.53:753][545]LogTemp: Repeating last play command: Selected Viewport
+[2022.06.04-14.37.53:794][545]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.37.53:794][545]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.06.04-14.37.53:794][545]LogPlayLevel: [PlayLevel] Compiling Bud before play...
+[2022.06.04-14.37.53:797][545]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.53:797][545]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_3:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.53:798][545]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.53:920][545]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.53:921][545]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_3:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.53:922][545]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.53:922][545]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Bud_C_1.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_3:PersistentLevel.Bud_C_1.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.53:924][545]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.53:925][545]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.53:925][545]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Bud_C_1.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_3:PersistentLevel.Bud_C_1.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.53:957][545]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2022.06.04-14.37.53:957][545]LogPlayLevel: PlayLevel: Blueprint regeneration took 162 ms (1 blueprints)
+[2022.06.04-14.37.53:979][545]PIE: New page: PIE session: FirstPersonExampleMap (4 cze 2022, 18:37:53)
+[2022.06.04-14.37.54:026][545]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.06.04-14.37.54:027][545]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.06.04-14.37.54:027][545]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.06.04-14.37.54:040][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013190s)
+[2022.06.04-14.37.54:041][545]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.06.04-14.37.54:041][545]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2022.06.04-14.37.54:041][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014172s)
+[2022.06.04-14.37.54:071][545]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2022.06.04-14.37.54:072][545]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.04-14.37.54:072][545]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.04-14.37.54:072][545]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.04-14.37.54:072][545]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.04-14.37.54:072][545]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.04-14.37.54:072][545]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.06.04-14.37.54:072][545]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.04-14.37.54:072][545]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.04-14.37.54:072][545]LogAudio: Display: Using built-in audio occlusion.
+[2022.06.04-14.37.54:072][545]LogAudioMixer: Display: Initializing audio mixer.
+[2022.06.04-14.37.54:100][545]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2022.06.04-14.37.54:100][545]LogAudioMixer: Display: Name: SONY TV (NVIDIA High Definition Audio)
+[2022.06.04-14.37.54:100][545]LogAudioMixer: Display: Is Default: Yes
+[2022.06.04-14.37.54:100][545]LogAudioMixer: Display: Sample Rate: 48000
+[2022.06.04-14.37.54:100][545]LogAudioMixer: Display: Channel Count Used: 2
+[2022.06.04-14.37.54:100][545]LogAudioMixer: Display: Device Channel Count: 2
+[2022.06.04-14.37.54:100][545]LogAudioMixer: Display: Channel Order:
+[2022.06.04-14.37.54:100][545]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.04-14.37.54:100][545]LogAudioMixer: Display: 1: FrontRight
+[2022.06.04-14.37.54:108][545]LogAudioMixer: Display: Using Audio Device SONY TV (NVIDIA High Definition Audio)
+[2022.06.04-14.37.54:109][545]LogInit: FAudioDevice initialized.
+[2022.06.04-14.37.54:131][545]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.06.04-14.37.54:137][545]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.06.04-16.37.54
+[2022.06.04-14.37.54:151][545]LogWorld: Bringing up level for play took: 0.014729
+[2022.06.04-14.37.54:151][545]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2022.06.04-14.37.54:186][545]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.06.04-14.37.54:256][545]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2022.06.04-14.37.54:257][545]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1,179
+[2022.06.04-14.37.54:257][545]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.37.54:354][545]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.37.55:963][705]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move! Velocity: X=-0.84 Y=17.05 Z=0.00 Location: X=-260.00 Y=-60.00 Z=266.22 Normal: X=0.00 Y=0.00 Z=-1.00 PenetrationDepth:63.225 Actor:Bud_5 Component:StaticMesh BoneName:None (0 other events since notify)
+[2022.06.04-14.37.56:964][825]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move! Velocity: X=-41.21 Y=54.38 Z=0.00 Location: X=-260.00 Y=-60.00 Z=266.22 Normal: X=0.00 Y=0.00 Z=-1.00 PenetrationDepth:63.225 Actor:Bud_5 Component:StaticMesh BoneName:None (112 other events since notify)
+[2022.06.04-14.37.57:965][945]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move! Velocity: X=413.85 Y=247.80 Z=0.00 Location: X=-260.00 Y=-60.00 Z=266.22 Normal: X=-0.00 Y=0.00 Z=1.00 PenetrationDepth:79.775 Actor:Floor3 Component:StaticMeshComponent0 BoneName:None (108 other events since notify)
+[2022.06.04-14.37.58:966][ 65]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move! Velocity: X=99.27 Y=30.01 Z=0.00 Location: X=-260.00 Y=-60.00 Z=266.22 Normal: X=-0.00 Y=0.00 Z=1.00 PenetrationDepth:79.775 Actor:Floor3 Component:StaticMeshComponent0 BoneName:None (99 other events since notify)
+[2022.06.04-14.38.01:723][393]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move! Velocity: X=8.09 Y=16.94 Z=0.00 Location: X=-260.00 Y=-60.00 Z=266.22 Normal: X=-0.00 Y=0.00 Z=1.00 PenetrationDepth:79.775 Actor:Floor3 Component:StaticMeshComponent0 BoneName:None (3 other events since notify)
+[2022.06.04-14.38.04:698][749]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move! Velocity: X=-1.37 Y=-17.01 Z=0.00 Location: X=-260.00 Y=-60.00 Z=266.22 Normal: X=0.00 Y=0.00 Z=-1.00 PenetrationDepth:63.225 Actor:Bud_5 Component:StaticMesh BoneName:None (57 other events since notify)
+[2022.06.04-14.38.05:706][870]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move! Velocity: X=-596.08 Y=68.44 Z=0.00 Location: X=-260.00 Y=-60.00 Z=266.22 Normal: X=0.00 Y=0.00 Z=-1.00 PenetrationDepth:63.225 Actor:Bud_5 Component:StaticMesh BoneName:None (118 other events since notify)
+[2022.06.04-14.38.06:073][914]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.38.06:073][914]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.38.06:073][914]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.38.06:073][914]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.04-14.38.06:073][914]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.06.04-14.38.06:074][914]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.38.06:074][914]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.04-14.38.06:074][914]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.04-14.38.06:079][914]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.04-14.38.06:079][914]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.38.06:083][914]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.04-14.38.06:113][914]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.38.06:124][914]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.04-14.38.06:167][914]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2022.06.04-14.38.06:299][914]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.38.06:321][915]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2022.06.04-14.38.09:308][210]LogSlate: Window 'Message Log' being destroyed
+[2022.06.04-14.38.09:317][210]LogSlate: Window 'Message Log' being destroyed
+[2022.06.04-14.38.12:094][534]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2022.06.04-14.38.22:258][682]LogTemp: Repeating last play command: Selected Viewport
+[2022.06.04-14.38.22:262][682]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.38.22:262][682]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.04-14.38.22:263][682]PIE: New page: PIE session: FirstPersonExampleMap (4 cze 2022, 18:38:22)
+[2022.06.04-14.38.22:263][682]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.06.04-14.38.22:271][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008669s)
+[2022.06.04-14.38.22:273][682]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.06.04-14.38.22:273][682]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2022.06.04-14.38.22:273][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.009702s)
+[2022.06.04-14.38.22:307][682]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2022.06.04-14.38.22:310][682]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.04-14.38.22:310][682]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.04-14.38.22:310][682]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.04-14.38.22:310][682]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.04-14.38.22:310][682]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.04-14.38.22:310][682]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.06.04-14.38.22:310][682]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.04-14.38.22:310][682]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.04-14.38.22:310][682]LogAudio: Display: Using built-in audio occlusion.
+[2022.06.04-14.38.22:310][682]LogAudioMixer: Display: Initializing audio mixer.
+[2022.06.04-14.38.22:337][682]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2022.06.04-14.38.22:337][682]LogAudioMixer: Display: Name: SONY TV (NVIDIA High Definition Audio)
+[2022.06.04-14.38.22:337][682]LogAudioMixer: Display: Is Default: Yes
+[2022.06.04-14.38.22:337][682]LogAudioMixer: Display: Sample Rate: 48000
+[2022.06.04-14.38.22:337][682]LogAudioMixer: Display: Channel Count Used: 2
+[2022.06.04-14.38.22:337][682]LogAudioMixer: Display: Device Channel Count: 2
+[2022.06.04-14.38.22:337][682]LogAudioMixer: Display: Channel Order:
+[2022.06.04-14.38.22:337][682]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.04-14.38.22:337][682]LogAudioMixer: Display: 1: FrontRight
+[2022.06.04-14.38.22:345][682]LogAudioMixer: Display: Using Audio Device SONY TV (NVIDIA High Definition Audio)
+[2022.06.04-14.38.22:346][682]LogInit: FAudioDevice initialized.
+[2022.06.04-14.38.22:352][682]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.06.04-14.38.22:353][682]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.06.04-16.38.22
+[2022.06.04-14.38.22:354][682]LogWorld: Bringing up level for play took: 0.001141
+[2022.06.04-14.38.22:354][682]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2022.06.04-14.38.22:355][682]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.06.04-14.38.22:355][682]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0,723
+[2022.06.04-14.38.22:355][682]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.38.33:483][  8]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.38.33:483][  8]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.38.33:483][  8]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.38.33:484][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.04-14.38.33:484][  8]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.06.04-14.38.33:484][  8]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.38.33:484][  8]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.04-14.38.33:484][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.04-14.38.33:492][  8]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.04-14.38.33:492][  8]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.38.33:496][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.04-14.38.33:524][  8]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.38.33:526][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.04-14.38.33:529][  8]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2022.06.04-14.38.33:555][  8]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.38.33:604][ 10]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2022.06.04-14.38.34:796][153]LogEditorViewport: Clicking on Actor (LMB): Bud_C (Bud)
+[2022.06.04-14.38.34:799][153]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.38.35:607][247]LogEditorViewport: Clicking on Actor (LMB): Bud_C (Bud)
+[2022.06.04-14.38.35:607][247]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.38.35:679][254]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (p0_parter)
+[2022.06.04-14.38.39:961][688]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/School/pientra/p0/p0_parter.p0_parter
+[2022.06.04-14.38.41:227][688]LogD3D12RHI: Creating RTPSO with 102 shaders (100 cached, 2 new) took 31.19 ms. Compile time 27.44 ms, link time 3.65 ms.
+[2022.06.04-14.38.41:246][689]LogRenderer: Reallocating scene render targets to support 1404x812 Format 10 NumSamples 1 (Frame:1).
+[2022.06.04-14.39.06:563][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/School/pientra/p0/p0_parter" FILE="../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/p0/p0_parter.uasset" SILENT=true
+[2022.06.04-14.39.06:579][347]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/p0_parter3940C3DA46D7FCA76F5DC7905418FCEB.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/p0/p0_parter.uasset'
+[2022.06.04-14.39.06:598][347]AssetCheck: New page: Asset Save: p0_parter
+[2022.06.04-14.39.06:598][347]LogContentValidation: Display: Validating StaticMesh /Game/School/pientra/p0/p0_parter.p0_parter
+[2022.06.04-14.39.09:089][616]LogTemp: Repeating last play command: Selected Viewport
+[2022.06.04-14.39.09:094][616]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.39.09:094][616]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.04-14.39.09:094][616]PIE: New page: PIE session: FirstPersonExampleMap (4 cze 2022, 18:39:09)
+[2022.06.04-14.39.09:094][616]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.06.04-14.39.09:103][616]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008546s)
+[2022.06.04-14.39.09:103][616]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.06.04-14.39.09:104][616]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2022.06.04-14.39.09:104][616]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.009401s)
+[2022.06.04-14.39.09:159][616]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2022.06.04-14.39.09:161][616]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.04-14.39.09:161][616]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.04-14.39.09:161][616]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.04-14.39.09:161][616]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.04-14.39.09:161][616]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.04-14.39.09:161][616]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.06.04-14.39.09:161][616]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.04-14.39.09:161][616]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.04-14.39.09:161][616]LogAudio: Display: Using built-in audio occlusion.
+[2022.06.04-14.39.09:161][616]LogAudioMixer: Display: Initializing audio mixer.
+[2022.06.04-14.39.09:188][616]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2022.06.04-14.39.09:188][616]LogAudioMixer: Display: Name: SONY TV (NVIDIA High Definition Audio)
+[2022.06.04-14.39.09:188][616]LogAudioMixer: Display: Is Default: Yes
+[2022.06.04-14.39.09:188][616]LogAudioMixer: Display: Sample Rate: 48000
+[2022.06.04-14.39.09:188][616]LogAudioMixer: Display: Channel Count Used: 2
+[2022.06.04-14.39.09:188][616]LogAudioMixer: Display: Device Channel Count: 2
+[2022.06.04-14.39.09:188][616]LogAudioMixer: Display: Channel Order:
+[2022.06.04-14.39.09:189][616]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.04-14.39.09:189][616]LogAudioMixer: Display: 1: FrontRight
+[2022.06.04-14.39.09:197][616]LogAudioMixer: Display: Using Audio Device SONY TV (NVIDIA High Definition Audio)
+[2022.06.04-14.39.09:197][616]LogInit: FAudioDevice initialized.
+[2022.06.04-14.39.09:205][616]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.06.04-14.39.09:207][616]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.06.04-16.39.09
+[2022.06.04-14.39.09:207][616]LogWorld: Bringing up level for play took: 0.001083
+[2022.06.04-14.39.09:207][616]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2022.06.04-14.39.09:208][616]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.06.04-14.39.09:209][616]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0,131
+[2022.06.04-14.39.09:209][616]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.39.59:690][655]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.39.59:690][655]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.39.59:690][655]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.39.59:690][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.04-14.39.59:690][655]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.06.04-14.39.59:690][655]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.39.59:690][655]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.04-14.39.59:690][655]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.04-14.39.59:696][655]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.04-14.39.59:696][655]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.39.59:701][655]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.04-14.39.59:730][655]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.39.59:732][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.04-14.39.59:735][655]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2022.06.04-14.39.59:794][657]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2022.06.04-14.40.01:162][821]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2022.06.04-14.40.07:152][524]LogTemp: Repeating last play command: Selected Viewport
+[2022.06.04-14.40.07:156][524]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.40.07:157][524]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.04-14.40.07:157][524]PIE: New page: PIE session: FirstPersonExampleMap (4 cze 2022, 18:40:07)
+[2022.06.04-14.40.07:157][524]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.06.04-14.40.07:164][524]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006979s)
+[2022.06.04-14.40.07:164][524]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.06.04-14.40.07:164][524]LogPlayLevel: PIE: World Init took: (0.000756s)
+[2022.06.04-14.40.07:164][524]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.007835s)
+[2022.06.04-14.40.07:194][524]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2022.06.04-14.40.07:195][524]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.04-14.40.07:195][524]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.04-14.40.07:195][524]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.04-14.40.07:195][524]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.04-14.40.07:195][524]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.04-14.40.07:195][524]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.06.04-14.40.07:195][524]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.04-14.40.07:195][524]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.04-14.40.07:195][524]LogAudio: Display: Using built-in audio occlusion.
+[2022.06.04-14.40.07:195][524]LogAudioMixer: Display: Initializing audio mixer.
+[2022.06.04-14.40.07:223][524]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2022.06.04-14.40.07:223][524]LogAudioMixer: Display: Name: SONY TV (NVIDIA High Definition Audio)
+[2022.06.04-14.40.07:223][524]LogAudioMixer: Display: Is Default: Yes
+[2022.06.04-14.40.07:223][524]LogAudioMixer: Display: Sample Rate: 48000
+[2022.06.04-14.40.07:223][524]LogAudioMixer: Display: Channel Count Used: 2
+[2022.06.04-14.40.07:223][524]LogAudioMixer: Display: Device Channel Count: 2
+[2022.06.04-14.40.07:223][524]LogAudioMixer: Display: Channel Order:
+[2022.06.04-14.40.07:223][524]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.04-14.40.07:223][524]LogAudioMixer: Display: 1: FrontRight
+[2022.06.04-14.40.07:231][524]LogAudioMixer: Display: Using Audio Device SONY TV (NVIDIA High Definition Audio)
+[2022.06.04-14.40.07:232][524]LogInit: FAudioDevice initialized.
+[2022.06.04-14.40.07:239][524]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.06.04-14.40.07:241][524]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.06.04-16.40.07
+[2022.06.04-14.40.07:241][524]LogWorld: Bringing up level for play took: 0.001060
+[2022.06.04-14.40.07:241][524]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2022.06.04-14.40.07:242][524]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.06.04-14.40.07:242][524]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0,165
+[2022.06.04-14.40.07:243][524]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.41.02:386][133]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.41.02:386][133]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.41.02:386][133]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.41.02:386][133]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.04-14.41.02:386][133]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.06.04-14.41.02:386][133]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.41.02:386][133]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.04-14.41.02:386][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.04-14.41.02:398][133]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.04-14.41.02:398][133]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.41.02:402][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.04-14.41.02:431][133]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.41.02:433][133]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.04-14.41.02:436][133]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2022.06.04-14.41.02:492][135]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2022.06.04-14.41.12:663][100]Cmd: STAT FPS
+[2022.06.04-14.41.14:609][292]LogEditorViewport: Clicking on Actor (LMB): Bud_C (Bud)
+[2022.06.04-14.41.14:612][292]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.42.51:778][224]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:\Dane\Gallex\prakGallex\5tag\pientra\klatka0.fbx)
+[2022.06.04-14.42.51:788][224]LogFbx: Loading FBX Scene from F:\Dane\Gallex\prakGallex\5tag\pientra\klatka0.fbx
+[2022.06.04-14.42.51:800][224]LogFbx: FBX Scene Loaded Succesfully
+[2022.06.04-14.42.54:704][224]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.06.04-14.42.54:729][224]LogMaterial: Display: Missing cached shader map for material Material_019, compiling. 
+[2022.06.04-14.42.54:738][224]LogFbx: Display: Triangulating static mesh Cube.004
+[2022.06.04-14.42.54:747][224]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 18
+[2022.06.04-14.42.54:747][224]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 16
+[2022.06.04-14.42.54:748][224]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 14
+[2022.06.04-14.42.54:748][224]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 12
+[2022.06.04-14.42.54:748][224]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 10
+[2022.06.04-14.42.54:748][224]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 8
+[2022.06.04-14.42.54:748][224]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 6
+[2022.06.04-14.42.54:748][224]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 4
+[2022.06.04-14.42.54:748][224]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 2
+[2022.06.04-14.42.54:749][224]LogStaticMesh: Building static mesh klatka0_Cube_004...
+[2022.06.04-14.42.54:751][224]LogStaticMesh: Built static mesh [0.00s] /Game/School/pientra/klatka/klatka0_Cube_004.klatka0_Cube_004
+[2022.06.04-14.42.54:764][224]LogMaterial: Display: Missing cached shader map for material Material_020, compiling. 
+[2022.06.04-14.42.54:778][224]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 18
+[2022.06.04-14.42.54:778][224]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 16
+[2022.06.04-14.42.54:778][224]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 14
+[2022.06.04-14.42.54:779][224]LogFbx: Display: Triangulating static mesh Cube.003
+[2022.06.04-14.42.54:782][224]LogStaticMesh: Building static mesh klatka0_Cube_003...
+[2022.06.04-14.42.54:784][224]LogStaticMesh: Built static mesh [0.00s] /Game/School/pientra/klatka/klatka0_Cube_003.klatka0_Cube_003
+[2022.06.04-14.42.54:803][224]LogMaterial: Display: Missing cached shader map for material Default_OBJ, compiling. 
+[2022.06.04-14.42.54:883][224]LogStaticMesh: Building static mesh klatka0_Person...
+[2022.06.04-14.42.54:963][224]LogStaticMesh: Built static mesh [0.08s] /Game/School/pientra/klatka/klatka0_Person.klatka0_Person
+[2022.06.04-14.42.55:043][224]LogMaterial: Display: Missing cached shader map for material Default_OBJ_003, compiling. 
+[2022.06.04-14.42.55:071][224]LogMaterial: Display: Missing cached shader map for material Default_OBJ_001, compiling. 
+[2022.06.04-14.42.55:127][224]LogStaticMesh: Building static mesh klatka0_schody_po_naprawie...
+[2022.06.04-14.42.55:218][224]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 66
+[2022.06.04-14.42.55:218][224]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 60
+[2022.06.04-14.42.55:218][224]LogStaticMesh: Built static mesh [0.09s] /Game/School/pientra/klatka/klatka0_schody_po_naprawie.klatka0_schody_po_naprawie
+[2022.06.04-14.42.55:238][224]LogStaticMesh: Warning: klatka0_schody_po_naprawie has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.06.04-14.42.55:238][224]LogStaticMesh: Warning: klatka0_schody_po_naprawie has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.06.04-14.42.55:299][224]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 54
+[2022.06.04-14.42.55:317][224]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.06.04-14.42.55:317][224]FBXImport: Warning: klatka0_schody_po_naprawie has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2022.06.04-14.42.55:317][224]FBXImport: Warning: klatka0_schody_po_naprawie has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.06.04-14.42.55:659][226]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 49
+[2022.06.04-14.42.55:659][226]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 44
+[2022.06.04-14.42.55:700][228]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 40
+[2022.06.04-14.42.55:725][229]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 36
+[2022.06.04-14.42.55:762][231]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 32
+[2022.06.04-14.42.55:762][231]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 29
+[2022.06.04-14.42.55:762][231]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 26
+[2022.06.04-14.42.55:800][233]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 23
+[2022.06.04-14.42.55:897][238]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 21
+[2022.06.04-14.42.56:754][276]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 19
+[2022.06.04-14.42.56:792][278]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 17
+[2022.06.04-14.42.56:913][284]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 15
+[2022.06.04-14.42.57:156][293]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 13
+[2022.06.04-14.42.57:295][300]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 11
+[2022.06.04-14.42.57:295][300]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 10
+[2022.06.04-14.42.57:333][302]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 9
+[2022.06.04-14.42.57:396][305]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 8
+[2022.06.04-14.42.57:396][305]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 7
+[2022.06.04-14.42.57:416][306]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 6
+[2022.06.04-14.42.57:466][308]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 5
+[2022.06.04-14.42.57:513][310]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 4
+[2022.06.04-14.42.57:668][317]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 3
+[2022.06.04-14.42.57:726][320]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 2
+[2022.06.04-14.42.57:727][320]LogSlate: Window 'Message Log' being destroyed
+[2022.06.04-14.42.57:738][320]LogSlate: Window 'Message Log' being destroyed
+[2022.06.04-14.42.57:758][321]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 1
+[2022.06.04-14.43.07:946][270]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.43.57:319][730]LogEditorViewport: Clicking on Actor (LMB): Bud_C (Bud)
+[2022.06.04-14.43.57:322][730]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.44.08:326][649]LogActorFactory: Actor Factory created klatka0_schody_po_naprawie
+[2022.06.04-14.44.08:643][676]LogActorFactory: Actor Factory created klatka0_schody_po_naprawie
+[2022.06.04-14.44.20:914][733]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/School/pientra/klatka/klatka0_schody_po_naprawie.klatka0_schody_po_naprawie
+[2022.06.04-14.44.27:908][220]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/klatka0_schody_po_naprawie92535BA641271A7DF5B00DB21B215B99.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/klatka/klatka0_schody_po_naprawie.uasset'
+[2022.06.04-14.44.28:078][220]AssetCheck: New page: Asset Save: klatka0_schody_po_naprawie
+[2022.06.04-14.44.28:078][220]LogContentValidation: Display: Validating StaticMesh /Game/School/pientra/klatka/klatka0_schody_po_naprawie.klatka0_schody_po_naprawie
+[2022.06.04-14.44.31:605][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/School/pientra/Bud" FILE="../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/Bud.uasset" SILENT=true
+[2022.06.04-14.44.31:614][447]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Bud6D78B0D045FD30C1D47F75A2B4CCFF65.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/Bud.uasset'
+[2022.06.04-14.44.31:630][447]AssetCheck: New page: Asset Save: Bud
+[2022.06.04-14.44.31:630][447]LogContentValidation: Display: Validating Blueprint /Game/School/pientra/Bud.Bud
+[2022.06.04-14.44.32:575][508]LogEditorViewport: Clicking on Actor (LMB): Bud_C (Bud)
+[2022.06.04-14.44.32:579][508]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.44.40:558][  6]LogTemp: Repeating last play command: Selected Viewport
+[2022.06.04-14.44.40:562][  6]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.44.40:563][  6]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.04-14.44.40:563][  6]PIE: New page: PIE session: FirstPersonExampleMap (4 cze 2022, 18:44:40)
+[2022.06.04-14.44.40:563][  6]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.06.04-14.44.40:570][  6]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007670s)
+[2022.06.04-14.44.40:571][  6]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.06.04-14.44.40:571][  6]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2022.06.04-14.44.40:571][  6]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.008453s)
+[2022.06.04-14.44.40:599][  6]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2022.06.04-14.44.40:601][  6]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.04-14.44.40:601][  6]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.04-14.44.40:601][  6]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.04-14.44.40:601][  6]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.04-14.44.40:601][  6]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.04-14.44.40:601][  6]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.06.04-14.44.40:601][  6]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.04-14.44.40:601][  6]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.04-14.44.40:601][  6]LogAudio: Display: Using built-in audio occlusion.
+[2022.06.04-14.44.40:601][  6]LogAudioMixer: Display: Initializing audio mixer.
+[2022.06.04-14.44.40:628][  6]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2022.06.04-14.44.40:628][  6]LogAudioMixer: Display: Name: SONY TV (NVIDIA High Definition Audio)
+[2022.06.04-14.44.40:628][  6]LogAudioMixer: Display: Is Default: Yes
+[2022.06.04-14.44.40:628][  6]LogAudioMixer: Display: Sample Rate: 48000
+[2022.06.04-14.44.40:628][  6]LogAudioMixer: Display: Channel Count Used: 2
+[2022.06.04-14.44.40:628][  6]LogAudioMixer: Display: Device Channel Count: 2
+[2022.06.04-14.44.40:628][  6]LogAudioMixer: Display: Channel Order:
+[2022.06.04-14.44.40:628][  6]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.04-14.44.40:628][  6]LogAudioMixer: Display: 1: FrontRight
+[2022.06.04-14.44.40:637][  6]LogAudioMixer: Display: Using Audio Device SONY TV (NVIDIA High Definition Audio)
+[2022.06.04-14.44.40:638][  6]LogInit: FAudioDevice initialized.
+[2022.06.04-14.44.40:648][  6]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.06.04-14.44.40:650][  6]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.06.04-16.44.40
+[2022.06.04-14.44.40:650][  6]LogWorld: Bringing up level for play took: 0.001034
+[2022.06.04-14.44.40:650][  6]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2022.06.04-14.44.40:651][  6]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.06.04-14.44.40:651][  6]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0,426
+[2022.06.04-14.44.40:652][  6]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.44.51:778][330]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-398.849 Y=-108.964 Z=516.842] for [FirstPersonProjectile_C]
+[2022.06.04-14.44.52:021][359]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-368.702 Y=-155.333 Z=507.522] for [FirstPersonProjectile_C]
+[2022.06.04-14.44.52:138][373]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-351.898 Y=-166.773 Z=509.700] for [FirstPersonProjectile_C]
+[2022.06.04-14.44.52:306][393]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-319.983 Y=-188.227 Z=505.588] for [FirstPersonProjectile_C]
+[2022.06.04-14.44.54:011][597]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.44.54:011][597]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.44.54:011][597]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.44.54:012][597]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.04-14.44.54:012][597]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.06.04-14.44.54:012][597]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.44.54:012][597]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.04-14.44.54:012][597]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.04-14.44.54:019][597]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.04-14.44.54:019][597]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.44.54:023][597]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.04-14.44.54:050][597]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.44.54:052][597]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.04-14.44.54:055][597]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2022.06.04-14.44.54:082][597]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.44.54:147][599]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2022.06.04-14.45.18:294][ 40]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2022.06.04-14.45.28:202][619]LogTemp: Repeating last play command: Selected Viewport
+[2022.06.04-14.45.28:207][619]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.45.28:207][619]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.04-14.45.28:207][619]PIE: New page: PIE session: FirstPersonExampleMap (4 cze 2022, 18:45:28)
+[2022.06.04-14.45.28:207][619]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.06.04-14.45.28:214][619]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006920s)
+[2022.06.04-14.45.28:214][619]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.06.04-14.45.28:214][619]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2022.06.04-14.45.28:214][619]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.007680s)
+[2022.06.04-14.45.28:242][619]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2022.06.04-14.45.28:243][619]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.04-14.45.28:243][619]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.04-14.45.28:243][619]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.04-14.45.28:243][619]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.04-14.45.28:243][619]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.04-14.45.28:243][619]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.06.04-14.45.28:243][619]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.04-14.45.28:243][619]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.04-14.45.28:243][619]LogAudio: Display: Using built-in audio occlusion.
+[2022.06.04-14.45.28:243][619]LogAudioMixer: Display: Initializing audio mixer.
+[2022.06.04-14.45.28:271][619]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2022.06.04-14.45.28:271][619]LogAudioMixer: Display: Name: SONY TV (NVIDIA High Definition Audio)
+[2022.06.04-14.45.28:271][619]LogAudioMixer: Display: Is Default: Yes
+[2022.06.04-14.45.28:271][619]LogAudioMixer: Display: Sample Rate: 48000
+[2022.06.04-14.45.28:271][619]LogAudioMixer: Display: Channel Count Used: 2
+[2022.06.04-14.45.28:271][619]LogAudioMixer: Display: Device Channel Count: 2
+[2022.06.04-14.45.28:271][619]LogAudioMixer: Display: Channel Order:
+[2022.06.04-14.45.28:271][619]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.04-14.45.28:271][619]LogAudioMixer: Display: 1: FrontRight
+[2022.06.04-14.45.28:279][619]LogAudioMixer: Display: Using Audio Device SONY TV (NVIDIA High Definition Audio)
+[2022.06.04-14.45.28:280][619]LogInit: FAudioDevice initialized.
+[2022.06.04-14.45.28:287][619]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.06.04-14.45.28:289][619]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.06.04-16.45.28
+[2022.06.04-14.45.28:289][619]LogWorld: Bringing up level for play took: 0.001041
+[2022.06.04-14.45.28:289][619]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2022.06.04-14.45.28:290][619]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.06.04-14.45.28:290][619]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0,787
+[2022.06.04-14.45.28:290][619]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.45.36:512][599]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.45.36:516][599]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2022.06.04-14.45.36:536][599]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2022.06.04-14.45.36:536][599]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.45.36:536][599]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.04-14.45.36:536][599]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.06.04-14.45.36:536][599]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.45.36:537][599]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.04-14.45.36:537][599]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.04-14.45.36:543][599]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.04-14.45.36:543][599]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.45.36:548][599]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.04-14.45.36:575][599]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.45.36:577][599]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.04-14.45.36:581][599]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2022.06.04-14.45.36:644][601]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2022.06.04-14.45.51:565][589]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/klatka0_schody_po_naprawie659E1EBB41162C708367779F90E16068.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/klatka/klatka0_schody_po_naprawie.uasset'
+[2022.06.04-14.45.51:587][589]AssetCheck: New page: Asset Save: klatka0_schody_po_naprawie
+[2022.06.04-14.45.51:587][589]LogContentValidation: Display: Validating StaticMesh /Game/School/pientra/klatka/klatka0_schody_po_naprawie.klatka0_schody_po_naprawie
+[2022.06.04-14.45.52:706][668]LogEditorViewport: Clicking on Actor (LMB): Bud_C (Bud)
+[2022.06.04-14.45.52:709][668]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
+[2022.06.04-14.45.53:443][717]LogTemp: Repeating last play command: Selected Viewport
+[2022.06.04-14.45.53:447][717]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.45.53:447][717]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.04-14.45.53:447][717]PIE: New page: PIE session: FirstPersonExampleMap (4 cze 2022, 18:45:53)
+[2022.06.04-14.45.53:448][717]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.06.04-14.45.53:455][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007154s)
+[2022.06.04-14.45.53:455][717]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.06.04-14.45.53:455][717]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2022.06.04-14.45.53:455][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.007978s)
+[2022.06.04-14.45.53:486][717]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2022.06.04-14.45.53:487][717]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.04-14.45.53:487][717]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.04-14.45.53:487][717]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.04-14.45.53:487][717]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.04-14.45.53:487][717]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.04-14.45.53:488][717]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.06.04-14.45.53:488][717]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.04-14.45.53:488][717]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.04-14.45.53:488][717]LogAudio: Display: Using built-in audio occlusion.
+[2022.06.04-14.45.53:488][717]LogAudioMixer: Display: Initializing audio mixer.
+[2022.06.04-14.45.53:514][717]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2022.06.04-14.45.53:514][717]LogAudioMixer: Display: Name: SONY TV (NVIDIA High Definition Audio)
+[2022.06.04-14.45.53:514][717]LogAudioMixer: Display: Is Default: Yes
+[2022.06.04-14.45.53:514][717]LogAudioMixer: Display: Sample Rate: 48000
+[2022.06.04-14.45.53:514][717]LogAudioMixer: Display: Channel Count Used: 2
+[2022.06.04-14.45.53:514][717]LogAudioMixer: Display: Device Channel Count: 2
+[2022.06.04-14.45.53:514][717]LogAudioMixer: Display: Channel Order:
+[2022.06.04-14.45.53:515][717]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.04-14.45.53:515][717]LogAudioMixer: Display: 1: FrontRight
+[2022.06.04-14.45.53:522][717]LogAudioMixer: Display: Using Audio Device SONY TV (NVIDIA High Definition Audio)
+[2022.06.04-14.45.53:523][717]LogInit: FAudioDevice initialized.
+[2022.06.04-14.45.53:529][717]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.06.04-14.45.53:531][717]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.06.04-16.45.53
+[2022.06.04-14.45.53:531][717]LogWorld: Bringing up level for play took: 0.001038
+[2022.06.04-14.45.53:531][717]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2022.06.04-14.45.53:532][717]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.06.04-14.45.53:532][717]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0,455
+[2022.06.04-14.45.53:532][717]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.46.25:348][530]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.46.25:348][530]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.46.25:348][530]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.46.25:348][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.04-14.46.25:348][530]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.06.04-14.46.25:348][530]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.46.25:348][530]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.04-14.46.25:348][530]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.04-14.46.25:357][530]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.04-14.46.25:357][530]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.46.25:361][530]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.04-14.46.25:385][530]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.46.25:388][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.04-14.46.25:391][530]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2022.06.04-14.46.25:451][532]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2022.06.04-14.46.32:381][ 22]LogTemp: Repeating last play command: Selected Viewport
+[2022.06.04-14.46.32:386][ 22]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.46.32:386][ 22]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.04-14.46.32:386][ 22]PIE: New page: PIE session: FirstPersonExampleMap (4 cze 2022, 18:46:32)
+[2022.06.04-14.46.32:386][ 22]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.06.04-14.46.32:394][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007343s)
+[2022.06.04-14.46.32:394][ 22]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.06.04-14.46.32:394][ 22]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2022.06.04-14.46.32:394][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.008132s)
+[2022.06.04-14.46.32:422][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2022.06.04-14.46.32:423][ 22]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.04-14.46.32:423][ 22]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.04-14.46.32:423][ 22]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.04-14.46.32:423][ 22]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.04-14.46.32:423][ 22]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.04-14.46.32:423][ 22]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.06.04-14.46.32:423][ 22]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.04-14.46.32:423][ 22]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.04-14.46.32:423][ 22]LogAudio: Display: Using built-in audio occlusion.
+[2022.06.04-14.46.32:423][ 22]LogAudioMixer: Display: Initializing audio mixer.
+[2022.06.04-14.46.32:450][ 22]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2022.06.04-14.46.32:450][ 22]LogAudioMixer: Display: Name: SONY TV (NVIDIA High Definition Audio)
+[2022.06.04-14.46.32:450][ 22]LogAudioMixer: Display: Is Default: Yes
+[2022.06.04-14.46.32:450][ 22]LogAudioMixer: Display: Sample Rate: 48000
+[2022.06.04-14.46.32:450][ 22]LogAudioMixer: Display: Channel Count Used: 2
+[2022.06.04-14.46.32:450][ 22]LogAudioMixer: Display: Device Channel Count: 2
+[2022.06.04-14.46.32:450][ 22]LogAudioMixer: Display: Channel Order:
+[2022.06.04-14.46.32:450][ 22]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.04-14.46.32:450][ 22]LogAudioMixer: Display: 1: FrontRight
+[2022.06.04-14.46.32:458][ 22]LogAudioMixer: Display: Using Audio Device SONY TV (NVIDIA High Definition Audio)
+[2022.06.04-14.46.32:459][ 22]LogInit: FAudioDevice initialized.
+[2022.06.04-14.46.32:468][ 22]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.06.04-14.46.32:469][ 22]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.06.04-16.46.32
+[2022.06.04-14.46.32:469][ 22]LogWorld: Bringing up level for play took: 0.001138
+[2022.06.04-14.46.32:469][ 22]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2022.06.04-14.46.32:470][ 22]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.06.04-14.46.32:471][ 22]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0,606
+[2022.06.04-14.46.32:471][ 22]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.46.58:494][134]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.46.58:511][134]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2022.06.04-14.46.58:531][134]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2022.06.04-14.46.58:531][134]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.46.58:531][134]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.04-14.46.58:531][134]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.06.04-14.46.58:531][134]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.46.58:531][134]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.04-14.46.58:531][134]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.04-14.46.58:538][134]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.04-14.46.58:538][134]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.46.58:543][134]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.04-14.46.58:571][134]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.46.58:573][134]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.04-14.46.58:577][134]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2022.06.04-14.46.58:600][135]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2022.06.04-14.47.05:504][589]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/klatka0_schody_po_naprawie9732A18241ACBB20BCA440AFB136D928.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/klatka/klatka0_schody_po_naprawie.uasset'
+[2022.06.04-14.47.05:524][589]AssetCheck: New page: Asset Save: klatka0_schody_po_naprawie
+[2022.06.04-14.47.05:524][589]LogContentValidation: Display: Validating StaticMesh /Game/School/pientra/klatka/klatka0_schody_po_naprawie.klatka0_schody_po_naprawie
+[2022.06.04-14.47.06:383][648]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (klatka0_schody_po_naprawie)
+[2022.06.04-14.47.06:908][681]LogTemp: Repeating last play command: Selected Viewport
+[2022.06.04-14.47.06:913][681]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.47.06:913][681]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.04-14.47.06:913][681]PIE: New page: PIE session: FirstPersonExampleMap (4 cze 2022, 18:47:06)
+[2022.06.04-14.47.06:913][681]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.06.04-14.47.06:920][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007004s)
+[2022.06.04-14.47.06:921][681]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.06.04-14.47.06:921][681]LogPlayLevel: PIE: World Init took: (0.000713s)
+[2022.06.04-14.47.06:921][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.007839s)
+[2022.06.04-14.47.06:954][681]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2022.06.04-14.47.06:955][681]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.04-14.47.06:955][681]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.04-14.47.06:955][681]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.04-14.47.06:955][681]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.04-14.47.06:955][681]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.04-14.47.06:955][681]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.06.04-14.47.06:955][681]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.04-14.47.06:955][681]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.04-14.47.06:955][681]LogAudio: Display: Using built-in audio occlusion.
+[2022.06.04-14.47.06:955][681]LogAudioMixer: Display: Initializing audio mixer.
+[2022.06.04-14.47.06:983][681]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2022.06.04-14.47.06:983][681]LogAudioMixer: Display: Name: SONY TV (NVIDIA High Definition Audio)
+[2022.06.04-14.47.06:983][681]LogAudioMixer: Display: Is Default: Yes
+[2022.06.04-14.47.06:983][681]LogAudioMixer: Display: Sample Rate: 48000
+[2022.06.04-14.47.06:983][681]LogAudioMixer: Display: Channel Count Used: 2
+[2022.06.04-14.47.06:983][681]LogAudioMixer: Display: Device Channel Count: 2
+[2022.06.04-14.47.06:983][681]LogAudioMixer: Display: Channel Order:
+[2022.06.04-14.47.06:983][681]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.04-14.47.06:983][681]LogAudioMixer: Display: 1: FrontRight
+[2022.06.04-14.47.06:990][681]LogAudioMixer: Display: Using Audio Device SONY TV (NVIDIA High Definition Audio)
+[2022.06.04-14.47.06:991][681]LogInit: FAudioDevice initialized.
+[2022.06.04-14.47.06:997][681]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.06.04-14.47.07:000][681]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.06.04-16.47.07
+[2022.06.04-14.47.07:000][681]LogWorld: Bringing up level for play took: 0.001032
+[2022.06.04-14.47.07:000][681]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2022.06.04-14.47.07:001][681]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.06.04-14.47.07:001][681]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0,077
+[2022.06.04-14.47.07:001][681]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.47.17:293][911]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.47.17:293][911]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.47.17:293][911]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.47.17:293][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.04-14.47.17:293][911]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.06.04-14.47.17:293][911]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.47.17:293][911]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.04-14.47.17:293][911]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.04-14.47.17:301][911]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.04-14.47.17:301][911]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2022.06.04-14.47.17:305][911]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.04-14.47.17:332][911]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.06.04-14.47.17:334][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.04-14.47.17:337][911]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2022.06.04-14.47.17:400][913]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2022.06.04-14.47.41:249][ 33]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.06.04-14.48.06:253][274]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.06.04-14.48.08:063][274]LogSlate: Window 'Save Content' being destroyed
+[2022.06.04-14.48.51:140][347]SourceControl: fatal: F:/Dane/EpicProgram/UE_4.24/Engine/Content: 'F:/Dane/EpicProgram/UE_4.24/Engine/Content' is outside repository at 'F:/Dane/EpicProjects/ZwiadSpecKolo'
+[2022.06.04-14.48.57:441][347]LogSlate: Window 'Submit Files' being destroyed
+[2022.06.04-14.48.58:237][347]LogSourceControl: commit successful: [testy-budynku f6abb07] schody
+[2022.06.04-14.48.58:346][347]SourceControl: [testy-budynku f6abb07] schody
+[2022.06.04-14.48.58:346][347]SourceControl:  3 files changed, 0 insertions(+), 0 deletions(-)
+[2022.06.04-14.48.58:346][347]SourceControl:  rewrite Content/School/pientra/Bud.uasset (80%)
+[2022.06.04-14.48.58:346][347]SourceControl:  create mode 100644 Content/School/pientra/klatka/klatka0_schody_po_naprawie.uasset
+[2022.06.04-14.48.58:360][347]SourceControl: Commited [testy-budynku f6abb07] schody.
