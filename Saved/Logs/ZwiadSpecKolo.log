@@ -750,3 +750,52 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.06.05-20.45.56:687][431]SourceControl:  create mode 100644 Content/School/pientra/p2/p2_Cube_004.uasset
 [2022.06.05-20.45.56:687][431]SourceControl:  create mode 100644 Content/School/pientra/p2/p2_Person.uasset
 [2022.06.05-20.45.56:699][431]SourceControl: Commited [testy-budynku b285fcc] teraz są piętra 1 2.
+[2022.06.05-20.52.39:978][125]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2022.06.05-20.52.41:324][125]LogSlate: Window 'Delete Assets' being destroyed
+[2022.06.05-20.52.41:339][125]LogSlate: Took 0.000111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.06.05-20.52.41:504][125]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2022.06.05-20.52.41:537][125]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2022.06.05-20.52.41:561][125]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.06.05-20.52.41:713][125]SourceControl: Error: Updated 0 paths from the index
+[2022.06.05-20.52.41:815][125]SourceControl: rm 'Content/School/pientra/p2/p2_Cube_003.uasset'
+[2022.06.05-20.52.45:822][584]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2022.06.05-20.52.47:088][584]LogSlate: Window 'Delete Assets' being destroyed
+[2022.06.05-20.52.47:274][584]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2022.06.05-20.52.47:298][584]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2022.06.05-20.52.47:331][584]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2022.06.05-20.52.47:354][584]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.06.05-20.52.47:501][584]SourceControl: Error: Updated 0 paths from the index
+[2022.06.05-20.52.47:615][584]SourceControl: rm 'Content/School/pientra/p2/p2_Cube_004.uasset'
+[2022.06.05-20.52.47:615][584]SourceControl: rm 'Content/School/pientra/p2/p2_Person.uasset'
+[2022.06.05-20.52.49:827][822]SourceControl: fatal: F:/Dane/EpicProgram/UE_4.24/Engine/Content: 'F:/Dane/EpicProgram/UE_4.24/Engine/Content' is outside repository at 'F:/Dane/EpicProjects/ZwiadSpecKolo'
+[2022.06.05-20.52.57:733][822]LogSlate: Window 'Submit Files' being destroyed
+[2022.06.05-20.52.58:327][822]LogSourceControl: commit successful: [testy-budynku f265c48] bez modeli
+[2022.06.05-20.52.58:360][822]SourceControl: [testy-budynku f265c48] bez modeli
+[2022.06.05-20.52.58:360][822]SourceControl:  3 files changed, 0 insertions(+), 0 deletions(-)
+[2022.06.05-20.52.58:360][822]SourceControl:  delete mode 100644 Content/School/pientra/p2/p2_Cube_003.uasset
+[2022.06.05-20.52.58:360][822]SourceControl:  delete mode 100644 Content/School/pientra/p2/p2_Cube_004.uasset
+[2022.06.05-20.52.58:360][822]SourceControl:  delete mode 100644 Content/School/pientra/p2/p2_Person.uasset
+[2022.06.05-20.52.58:372][822]SourceControl: Commited [testy-budynku f265c48] bez modeli.
+[2022.06.05-20.53.01:552][147]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/School/pientra/p2/p2_piętro2.p2_piętro2
+[2022.06.05-20.53.02:246][147]LogRenderer: Reallocating scene render targets to support 1404x812 Format 10 NumSamples 1 (Frame:1).
+[2022.06.05-20.53.02:246][147]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.06.05-20.53.10:565][915]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2022.06.05-20.53.12:176][915]LogSlate: Window 'Delete Assets' being destroyed
+[2022.06.05-20.53.12:345][915]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2022.06.05-20.53.12:369][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.06.05-20.53.12:393][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2022.06.05-20.53.12:425][915]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2022.06.05-20.53.12:448][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.06.05-20.53.12:586][915]SourceControl: Error: Updated 0 paths from the index
+[2022.06.05-20.53.12:704][915]SourceControl: rm 'Content/School/pientra/p2/Default_OBJ.uasset'
+[2022.06.05-20.53.12:704][915]SourceControl: rm 'Content/School/pientra/p2/Material_019.uasset'
+[2022.06.05-20.53.12:704][915]SourceControl: rm 'Content/School/pientra/p2/Material_020.uasset'
+[2022.06.05-20.53.21:118][782]SourceControl: fatal: F:/Dane/EpicProgram/UE_4.24/Engine/Content: 'F:/Dane/EpicProgram/UE_4.24/Engine/Content' is outside repository at 'F:/Dane/EpicProjects/ZwiadSpecKolo'
+[2022.06.05-20.53.27:418][782]LogSlate: Window 'Submit Files' being destroyed
+[2022.06.05-20.53.27:897][782]LogSourceControl: commit successful: [testy-budynku 43b4996] bez textur
+[2022.06.05-20.53.27:934][782]SourceControl: [testy-budynku 43b4996] bez textur
+[2022.06.05-20.53.27:934][782]SourceControl:  3 files changed, 0 insertions(+), 0 deletions(-)
+[2022.06.05-20.53.27:934][782]SourceControl:  delete mode 100644 Content/School/pientra/p2/Default_OBJ.uasset
+[2022.06.05-20.53.27:934][782]SourceControl:  delete mode 100644 Content/School/pientra/p2/Material_019.uasset
+[2022.06.05-20.53.27:934][782]SourceControl:  delete mode 100644 Content/School/pientra/p2/Material_020.uasset
+[2022.06.05-20.53.27:946][782]SourceControl: Commited [testy-budynku 43b4996] bez textur.
