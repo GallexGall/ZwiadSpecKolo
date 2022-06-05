@@ -1,4 +1,4 @@
-﻿Log file open, 06/05/22 21:18:50
+﻿Log file open, 06/05/22 22:44:40
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: ZwiadSpecKolo
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 1.320574
+LogStats: Stats thread started at 0.052864
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -164,844 +164,589 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2022.06.05-19.18.53:685][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2022.06.05-19.18.53:685][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2022.06.05-19.18.53:686][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Engine.ini]
-[2022.06.05-19.18.53:686][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2022.06.05-19.18.53:686][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
-[2022.06.05-19.18.53:686][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
-[2022.06.05-19.18.53:686][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
-[2022.06.05-19.18.53:686][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
-[2022.06.05-19.18.53:686][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
-[2022.06.05-19.18.53:686][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
-[2022.06.05-19.18.53:686][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
-[2022.06.05-19.18.53:686][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
-[2022.06.05-19.18.53:686][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
-[2022.06.05-19.18.53:687][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
-[2022.06.05-19.18.53:704][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
-[2022.06.05-19.18.53:704][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
-[2022.06.05-19.18.53:704][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
-[2022.06.05-19.18.53:704][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
-[2022.06.05-19.18.53:704][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
-[2022.06.05-19.18.53:704][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
-[2022.06.05-19.18.53:704][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[r.RayTracing:1]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:1]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Engine.ini]
-[2022.06.05-19.18.53:705][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Engine.ini]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Engine.ini]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2022.06.05-19.18.53:705][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Engine.ini]
-[2022.06.05-19.18.53:705][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Engine.ini]
-[2022.06.05-19.18.53:741][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
-[2022.06.05-19.18.53:741][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2022.06.05-19.18.53:741][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2022.06.05-19.18.53:741][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2022.06.05-19.18.53:742][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
-[2022.06.05-19.18.53:743][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2022.06.05-19.18.53:743][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2022.06.05-19.18.53:743][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
-[2022.06.05-19.18.53:743][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2022.06.05-19.18.53:743][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2022.06.05-19.18.53:743][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2022.06.05-19.18.53:744][  0]LogInit: Selected Device Profile: [Windows]
-[2022.06.05-19.18.53:749][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2022.06.05-19.18.53:780][  0]LogHAL: Display: Platform has ~ 64 GB [68634550272 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2022.06.05-19.18.53:780][  0]LogInit: Going up to parent DeviceProfile []
-[2022.06.05-19.18.53:780][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
-[2022.06.05-19.18.53:780][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2022.06.05-19.18.53:781][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2022.06.05-19.18.53:782][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2022.06.05-19.18.53:782][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
-[2022.06.05-19.18.53:782][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2022.06.05-19.18.53:782][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2022.06.05-19.18.53:782][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
-[2022.06.05-19.18.53:782][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2022.06.05-19.18.53:782][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2022.06.05-19.18.53:782][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2022.06.05-19.18.53:782][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2022.06.05-19.18.53:788][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2022.06.05-19.18.53:788][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2022.06.05-19.18.53:788][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Engine.ini]
-[2022.06.05-19.18.53:795][  0]LogInit: Computer: DESKTOP-SEF6IUT
-[2022.06.05-19.18.53:795][  0]LogInit: User: HyperCub3
-[2022.06.05-19.18.53:795][  0]LogInit: CPU Page size=4096, Cores=8
-[2022.06.05-19.18.53:795][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2022.06.05-19.18.53:795][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx)
-[2022.06.05-19.18.53:802][  0]LogMemory: Platform Memory Stats for Windows
-[2022.06.05-19.18.53:802][  0]LogMemory: Process Physical Memory: 111.89 MB used, 111.90 MB peak
-[2022.06.05-19.18.53:802][  0]LogMemory: Process Virtual Memory: 107.15 MB used, 107.15 MB peak
-[2022.06.05-19.18.53:802][  0]LogMemory: Physical Memory: 13268.02 MB used,  52186.99 MB free, 65455.01 MB total
-[2022.06.05-19.18.53:802][  0]LogMemory: Virtual Memory: 5223.81 MB used,  134212504.00 MB free, 134217728.00 MB total
-[2022.06.05-19.18.53:814][  0]LogWindows: WindowsPlatformFeatures enabled
-[2022.06.05-19.18.54:604][  0]LogInit: Using OS detected language (pl-PL).
-[2022.06.05-19.18.54:604][  0]LogInit: Using OS detected locale (pl-PL).
-[2022.06.05-19.18.54:635][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
-[2022.06.05-19.18.54:636][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
-[2022.06.05-19.18.54:636][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
-[2022.06.05-19.18.54:636][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
-[2022.06.05-19.18.54:636][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
-[2022.06.05-19.18.54:637][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
-[2022.06.05-19.18.54:638][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
-[2022.06.05-19.18.54:638][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
-[2022.06.05-19.18.54:688][  0]LogInit: Setting process to per monitor DPI aware
-[2022.06.05-19.18.55:172][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2022.06.05-19.18.55:172][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2022.06.05-19.18.55:980][  0]LogD3D12RHI: Aftermath initialized
-[2022.06.05-19.18.55:980][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/DirectX/x64).
-[2022.06.05-19.18.56:066][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2022.06.05-19.18.56:183][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce RTX 2080 (Max supported Feature Level 12_1)
-[2022.06.05-19.18.56:183][  0]LogD3D12RHI: Adapter has 8010MB of dedicated video memory, 0MB of dedicated system memory, and 32727MB of shared system memory, 2 output[s]
-[2022.06.05-19.18.56:194][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (Max supported Feature Level 12_1)
-[2022.06.05-19.18.56:194][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 32727MB of shared system memory, 0 output[s]
-[2022.06.05-19.18.56:194][  0]LogD3D12RHI: Forcing D3D12.AsyncDeferredDeletion=0 as a workaround for a deadlock.
-[2022.06.05-19.18.56:194][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
-[2022.06.05-19.18.56:203][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
-[2022.06.05-19.18.56:264][  0]LogD3D12RHI: D3D12 ray tracing enabled.
-[2022.06.05-19.18.56:264][  0]LogD3D12RHI: The system supports ID3D12Device1.
-[2022.06.05-19.18.56:264][  0]LogD3D12RHI: The system supports ID3D12Device2.
-[2022.06.05-19.18.56:362][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
-[2022.06.05-19.18.56:363][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
-[2022.06.05-19.18.56:365][  0]LogD3D12RHI:     GPU DeviceId: 0x1e87 (for the marketing name, search the web for "GPU Device Id")
-[2022.06.05-19.18.56:365][  0]LogWindows: EnumDisplayDevices:
-[2022.06.05-19.18.56:365][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
-[2022.06.05-19.18.56:365][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
-[2022.06.05-19.18.56:366][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
-[2022.06.05-19.18.56:366][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
-[2022.06.05-19.18.56:366][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2022.06.05-19.18.56:366][  0]LogD3D12RHI:     Adapter Name: NVIDIA GeForce RTX 2080
-[2022.06.05-19.18.56:366][  0]LogD3D12RHI:   Driver Version: 456.71 (internal:27.21.14.5671, unified:456.71)
-[2022.06.05-19.18.56:366][  0]LogD3D12RHI:      Driver Date: 9-30-2020
-[2022.06.05-19.18.56:366][  0]LogRHI: Texture pool is 4562 MB (70% of 6517 MB)
-[2022.06.05-19.18.56:366][  0]LogD3D12RHI: Async texture creation enabled
-[2022.06.05-19.18.56:366][  0]LogD3D12RHI: RHI has support for 64 bit atomics
-[2022.06.05-19.18.57:099][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2022.06.05-19.18.57:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2022.06.05-19.18.57:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2022.06.05-19.18.57:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2022.06.05-19.18.57:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2022.06.05-19.18.57:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2022.06.05-19.18.57:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2022.06.05-19.18.57:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2022.06.05-19.18.57:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2022.06.05-19.18.57:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2022.06.05-19.18.57:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2022.06.05-19.18.57:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2022.06.05-19.18.57:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2022.06.05-19.18.57:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2022.06.05-19.18.57:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2022.06.05-19.18.57:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2022.06.05-19.18.57:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2022.06.05-19.18.57:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2022.06.05-19.18.57:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2022.06.05-19.18.57:310][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2022.06.05-19.18.57:310][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2022.06.05-19.18.57:344][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2022.06.05-19.18.57:385][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2022.06.05-19.18.57:407][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2022.06.05-19.18.57:442][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2022.06.05-19.18.57:515][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2022.06.05-19.18.57:540][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2022.06.05-19.18.57:585][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2022.06.05-19.18.57:585][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2022.06.05-19.18.57:609][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2022.06.05-19.18.57:609][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2022.06.05-19.18.57:663][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2022.06.05-19.18.57:962][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2022.06.05-19.18.58:005][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2022.06.05-19.18.58:026][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2022.06.05-19.18.58:026][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2022.06.05-19.18.58:155][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2022.06.05-19.18.58:843][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (../../../../../EpicProjects/ZwiadSpecKolo/Intermediate/Shaders/WorkingDirectory/13652/).
-[2022.06.05-19.18.58:843][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/HyperCub3/AppData/Local/Temp/UnrealShaderWorkingDir/B8212B8048B68ECEDA6E2AAB4268FF49/'.
-[2022.06.05-19.18.58:844][  0]LogXGEController: Cleaning working directory: C:/Users/HyperCub3/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2022.06.05-19.18.58:844][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2022.06.05-19.18.58:844][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2022.06.05-19.18.58:844][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2022.06.05-19.19.00:414][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2022.06.05-19.19.00:480][  0]LogDerivedDataCache: Loaded boot cache 0.07s 100MB C:/Users/HyperCub3/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2022.06.05-19.19.00:480][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/HyperCub3/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2022.06.05-19.19.00:480][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../EpicProjects/ZwiadSpecKolo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2022.06.05-19.19.00:481][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2022.06.05-19.19.00:481][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../EpicProjects/ZwiadSpecKolo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2022.06.05-19.19.00:481][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2022.06.05-19.19.00:514][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2022.06.05-19.19.00:514][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2022.06.05-19.19.00:514][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2022.06.05-19.19.00:515][  0]LogDerivedDataCache: Using Local data cache path C:/Users/HyperCub3/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2022.06.05-19.19.00:515][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2022.06.05-19.19.00:515][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2022.06.05-19.19.00:635][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2022.06.05-19.19.00:686][  0]LogSlate: Using FreeType 2.10.0
-[2022.06.05-19.19.00:782][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2022.06.05-19.19.01:658][  0]LogAssetRegistry: FAssetRegistry took 0.0050 seconds to start up
-[2022.06.05-19.19.04:654][  0]LogInit: Selected Device Profile: [Windows]
-[2022.06.05-19.19.06:163][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2022.06.05-19.19.06:163][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2022.06.05-19.19.06:163][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2022.06.05-19.19.06:163][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2022.06.05-19.19.06:163][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2022.06.05-19.19.06:521][  0]LogNetVersion: ZwiadSpecKolo 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 4199172908)
-[2022.06.05-19.19.13:176][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.043806 seconds
-[2022.06.05-19.19.13:181][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2022.06.05-19.19.13:181][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2022.06.05-19.19.13:181][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2022.06.05-19.19.15:161][  0]LogD3D12RHI: Creating RTPSO with 3 shaders (0 cached, 3 new) took 73.45 ms. Compile time 9.73 ms, link time 63.57 ms.
-[2022.06.05-19.19.17:295][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2022.06.05-19.19.17:320][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2022.06.05-19.19.17:921][  0]SourceControl: Source control is disabled
-[2022.06.05-19.19.19:785][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2022.06.05-19.19.19:896][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2022.06.05-19.19.19:896][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2022.06.05-19.19.20:361][  0]LogOcInput: OculusInput pre-init called
-[2022.06.05-19.19.21:935][  0]LogEngine: Initializing Engine...
-[2022.06.05-19.19.21:989][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2022.06.05-19.19.22:055][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.019 s
-[2022.06.05-19.19.22:739][  0]LogInit: Initializing FReadOnlyCVARCache
-[2022.06.05-19.19.23:028][  0]LogAIModule: Creating AISystem for world Untitled
-[2022.06.05-19.19.23:166][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2022.06.05-19.19.23:166][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2022.06.05-19.19.23:166][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2022.06.05-19.19.23:166][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2022.06.05-19.19.23:166][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2022.06.05-19.19.23:166][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2022.06.05-19.19.23:166][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2022.06.05-19.19.23:166][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2022.06.05-19.19.23:181][  0]LogAudio: Display: Using built-in audio occlusion.
-[2022.06.05-19.19.23:181][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2022.06.05-19.19.23:259][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2022.06.05-19.19.23:259][  0]LogAudioMixer: Display: Name: SONY TV (NVIDIA High Definition Audio)
-[2022.06.05-19.19.23:259][  0]LogAudioMixer: Display: Is Default: Yes
-[2022.06.05-19.19.23:259][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2022.06.05-19.19.23:259][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2022.06.05-19.19.23:259][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2022.06.05-19.19.23:259][  0]LogAudioMixer: Display: Channel Order:
-[2022.06.05-19.19.23:259][  0]LogAudioMixer: Display: 0: FrontLeft
-[2022.06.05-19.19.23:259][  0]LogAudioMixer: Display: 1: FrontRight
-[2022.06.05-19.19.23:273][  0]LogAudioMixer: Display: Using Audio Device SONY TV (NVIDIA High Definition Audio)
-[2022.06.05-19.19.23:292][  0]LogInit: FAudioDevice initialized.
-[2022.06.05-19.19.23:292][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2022.06.05-19.19.23:332][  0]LogDerivedDataCache: Saved boot cache 0.04s 100MB C:/Users/HyperCub3/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2022.06.05-19.19.23:333][  0]LogInit: Texture streaming: Enabled
-[2022.06.05-19.19.23:479][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2022.06.05-19.19.23:480][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2022.06.05-19.19.23:484][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2022.06.05-19.19.23:788][  0]LogInit: Transaction tracking system initialized
-[2022.06.05-19.19.24:112][  0]BlueprintLog: New page: Editor Load
-[2022.06.05-19.19.25:031][  0]LocalizationService: Localization service is disabled
-[2022.06.05-19.19.25:485][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
-[2022.06.05-19.19.25:485][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
-[2022.06.05-19.19.25:485][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
-[2022.06.05-19.19.28:202][  0]LogFileCache: Scanning file cache for directory 'F:/Dane/EpicProjects/ZwiadSpecKolo/Content/' took 0.00s
-[2022.06.05-19.19.28:202][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2022.06.05-19.19.28:202][  0]LogCook: Display: Mobile HDR setting 1
-[2022.06.05-19.19.32:987][  0]Cmd: MAP LOAD FILE="../../../../../EpicProjects/ZwiadSpecKolo/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2022.06.05-19.19.32:998][  0]LightingResults: New page: Lighting Build
-[2022.06.05-19.19.33:092][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2022.06.05-19.19.33:139][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2022.06.05-19.19.33:146][  0]MapCheck: New page: Map Check
-[2022.06.05-19.19.33:146][  0]LightingResults: New page: Lighting Build
-[2022.06.05-19.19.33:559][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
-[2022.06.05-19.19.35:939][  0]LogLinker: Warning: While loading '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/Bud/zskv3.uasset' failed to load '/Game/School/pientra/Bud/None': Can't find file.
-[2022.06.05-19.19.35:939][  0]LogLinker: Warning: While loading '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/Bud/zskv3.uasset' failed to load '/Game/School/pientra/Bud/None': Can't find file.
-[2022.06.05-19.19.35:941][  0]LogLinker: Warning: While loading '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/Bud/zskv3.uasset' failed to load '/Game/School/pientra/Bud/None': Can't find file.
-[2022.06.05-19.19.35:941][  0]LogLinker: Warning: While loading '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/Bud/zskv3.uasset' failed to load '/Game/School/pientra/Bud/None': Can't find file.
-[2022.06.05-19.19.36:129][  0]LogLinker: Warning: While loading '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/Bud/zskv3.uasset' failed to load '/Game/School/pientra/Bud/None': Can't find file.
-[2022.06.05-19.19.36:129][  0]LoadErrors: Failed to load /Game/School/pientra/Bud/None.Material_0 Referenced by zskv3
-[2022.06.05-19.19.36:129][  0]LogLinker: Warning: While loading '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/Bud/zskv3.uasset' failed to load '/Game/School/pientra/Bud/None': Can't find file.
-[2022.06.05-19.19.36:129][  0]LoadErrors: Failed to load /Game/School/pientra/Bud/None.Material_0 Referenced by zskv3
-[2022.06.05-19.19.36:129][  0]LogLinker: Warning: While loading '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/Bud/zskv3.uasset' failed to load '/Game/School/pientra/Bud/None': Can't find file.
-[2022.06.05-19.19.36:129][  0]LoadErrors: Failed to load /Game/School/pientra/Bud/None.Material_0 Referenced by zskv3
-[2022.06.05-19.19.36:129][  0]LogLinker: Warning: While loading '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/Bud/zskv3.uasset' failed to load '/Game/School/pientra/Bud/None': Can't find file.
-[2022.06.05-19.19.36:129][  0]LoadErrors: Failed to load /Game/School/pientra/Bud/None.Material_0 Referenced by zskv3
-[2022.06.05-19.19.37:691][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2022.06.05-19.19.38:507][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
-[2022.06.05-19.19.38:925][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2022.06.05-19.19.39:035][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
-[2022.06.05-19.19.39:035][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2022.06.05-19.19.39:036][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,433ms to complete.
-[2022.06.05-19.19.39:036][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 6.064
-[2022.06.05-19.19.41:366][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2022.06.05-19.19.41:374][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2022.06.05-19.19.41:379][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2022.06.05-19.19.41:384][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2022.06.05-19.19.41:759][  0]LogCollectionManager: Loaded 0 collections in 0.000496 seconds
-[2022.06.05-19.19.42:048][  0]LogFileCache: Scanning file cache for directory 'F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Collections/' took 0.00s
-[2022.06.05-19.19.42:048][  0]LogFileCache: Scanning file cache for directory 'F:/Dane/EpicProjects/ZwiadSpecKolo/Content/Developers/HyperCub3/Collections/' took 0.00s
-[2022.06.05-19.19.42:048][  0]LogFileCache: Scanning file cache for directory 'F:/Dane/EpicProjects/ZwiadSpecKolo/Content/Collections/' took 0.00s
-[2022.06.05-19.19.42:048][  0]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 3015 classes and 717 folders.
-[2022.06.05-19.19.42:237][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2022.06.05-19.19.45:320][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2022.06.05-19.19.45:479][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 3 folders.
-[2022.06.05-19.19.48:372][  0]LogSlate: Took 0.027115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2022.06.05-19.19.49:015][  0]LogSlate: Took 0.026348 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2022.06.05-19.19.49:027][  0]LogSlate: Took 0.009254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2022.06.05-19.19.49:426][  0]LogRenderer: Reallocating scene render targets to support 1084x408 Format 10 NumSamples 1 (Frame:1).
-[2022.06.05-19.19.49:859][  0]LogD3D12RHI: Creating RTPSO with 91 shaders (0 cached, 91 new) took 130.36 ms. Compile time 120.15 ms, link time 10.09 ms.
-[2022.06.05-19.19.49:903][  0]LogD3D12RHI: Creating RTPSO with 3 shaders (3 cached, 0 new) took 40.40 ms. Compile time 0.02 ms, link time 40.37 ms.
-[2022.06.05-19.19.50:033][  0]LogD3D12RHI: Creating RTPSO with 3 shaders (0 cached, 3 new) took 10.80 ms. Compile time 3.26 ms, link time 7.52 ms.
-[2022.06.05-19.19.50:402][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2022.06.05-19.19.50:403][  0]LogLoad: (Engine Initialization) Total time: 71.50 seconds
-[2022.06.05-19.19.50:403][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2022.06.05-19.19.50:598][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2022.06.05-19.19.51:015][  0]LogSlate: Took 0.015867 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2022.06.05-19.19.51:350][  2]LogD3D12RHI: Creating RTPSO with 98 shaders (97 cached, 1 new) took 10.67 ms. Compile time 6.78 ms, link time 3.76 ms.
-[2022.06.05-19.19.52:637][ 19]LogAssetRegistry: Asset discovery search completed in 50.9796 seconds
-[2022.06.05-19.19.52:640][ 19]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000010 seconds (updated 0 objects)
-[2022.06.05-19.27.49:680][636]LogSlate: Window 'Message Log' being destroyed
-[2022.06.05-19.27.49:687][636]LogSlate: Window 'Message Log' being destroyed
-[2022.06.05-19.27.55:904][316]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
-[2022.06.05-19.28.33:657][946]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2022.06.05-19.28.34:651][946]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:\Dane\Gallex\prakGallex\5tag\pientra\p1\p1.fbx)
-[2022.06.05-19.28.36:081][946]LogFbx: Loading FBX Scene from F:\Dane\Gallex\prakGallex\5tag\pientra\p1\p1.fbx
-[2022.06.05-19.28.36:117][946]LogFbx: FBX Scene Loaded Succesfully
-[2022.06.05-19.28.43:987][946]LogSlate: Window 'FBX Import Options' being destroyed
-[2022.06.05-19.28.45:292][946]LogMaterial: Display: Missing cached shader map for material Material_019, compiling. 
-[2022.06.05-19.28.46:141][946]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 18
-[2022.06.05-19.28.46:141][946]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 16
-[2022.06.05-19.28.46:141][946]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 14
-[2022.06.05-19.28.46:141][946]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 12
-[2022.06.05-19.28.46:141][946]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 10
-[2022.06.05-19.28.46:141][946]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 8
-[2022.06.05-19.28.46:141][946]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 6
-[2022.06.05-19.28.46:141][946]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 4
-[2022.06.05-19.28.46:141][946]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 2
-[2022.06.05-19.28.46:141][946]LogFbx: Display: Triangulating static mesh Cube.004
-[2022.06.05-19.28.47:536][946]LogStaticMesh: Building static mesh p1_Cube_004...
-[2022.06.05-19.28.47:546][946]LogStaticMesh: Built static mesh [0.01s] /Game/School/pientra/p1/p1_Cube_004.p1_Cube_004
-[2022.06.05-19.28.47:569][946]LogMaterial: Display: Missing cached shader map for material Material_020, compiling. 
-[2022.06.05-19.28.47:578][946]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 18
-[2022.06.05-19.28.47:578][946]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 16
-[2022.06.05-19.28.47:578][946]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 14
-[2022.06.05-19.28.47:578][946]LogFbx: Display: Triangulating static mesh Cube.003
-[2022.06.05-19.28.47:580][946]LogStaticMesh: Building static mesh p1_Cube_003...
-[2022.06.05-19.28.47:582][946]LogStaticMesh: Built static mesh [0.00s] /Game/School/pientra/p1/p1_Cube_003.p1_Cube_003
-[2022.06.05-19.28.47:592][946]LogMaterial: Display: Missing cached shader map for material Default_OBJ, compiling. 
-[2022.06.05-19.28.47:635][946]LogStaticMesh: Building static mesh p1_Person...
-[2022.06.05-19.28.47:682][946]LogStaticMesh: Built static mesh [0.05s] /Game/School/pientra/p1/p1_Person.p1_Person
-[2022.06.05-19.28.47:720][946]LogMaterial: Display: Missing cached shader map for material Default_OBJ_004, compiling. 
-[2022.06.05-19.28.47:789][946]LogStaticMesh: Building static mesh p1_piętro1...
-[2022.06.05-19.28.47:844][946]LogStaticMesh: Built static mesh [0.05s] /Game/School/pientra/p1/p1_piętro1.p1_piętro1
-[2022.06.05-19.28.48:060][946]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2022.06.05-19.28.50:834][138]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 48
-[2022.06.05-19.28.51:049][161]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 43
-[2022.06.05-19.28.51:068][163]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 39
-[2022.06.05-19.28.51:086][165]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 35
-[2022.06.05-19.28.51:086][165]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 32
-[2022.06.05-19.28.51:143][171]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 29
-[2022.06.05-19.28.51:181][175]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 26
-[2022.06.05-19.28.51:189][176]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 23
-[2022.06.05-19.28.51:234][181]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 21
-[2022.06.05-19.28.51:333][191]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 19
-[2022.06.05-19.28.51:979][243]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 17
-[2022.06.05-19.28.51:988][244]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 15
-[2022.06.05-19.28.52:043][250]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 13
-[2022.06.05-19.28.52:211][269]LogSlate: Window 'Message Log' being destroyed
-[2022.06.05-19.28.52:222][269]LogSlate: Window 'Message Log' being destroyed
-[2022.06.05-19.28.52:316][277]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 11
-[2022.06.05-19.28.52:352][280]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 10
-[2022.06.05-19.28.52:397][284]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 9
-[2022.06.05-19.28.52:464][286]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 8
-[2022.06.05-19.28.52:511][288]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 7
-[2022.06.05-19.28.52:511][288]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 6
-[2022.06.05-19.28.52:594][293]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 5
-[2022.06.05-19.28.52:732][302]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 4
-[2022.06.05-19.28.52:753][303]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 3
-[2022.06.05-19.28.52:801][306]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 2
-[2022.06.05-19.28.52:854][310]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
-[2022.06.05-19.28.56:711][752]LogEditorViewport: Clicking on Actor (LMB): Bud_C (Bud)
-[2022.06.05-19.28.57:272][752]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
-[2022.06.05-19.28.58:491][790]LogEditorViewport: Clicking on Actor (LMB): Bud_C (Bud)
-[2022.06.05-19.28.58:491][790]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
-[2022.06.05-19.29.48:704][793]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/School/pientra/Bud.Bud
-[2022.06.05-19.29.53:917][793]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 121 classes and 0 folders.
-[2022.06.05-19.30.01:066][793]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_3:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
-[2022.06.05-19.30.01:220][793]LogSlate: Took 0.084386 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2022.06.05-19.30.06:349][ 19]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetTileView [SAssetView.cpp(1793)].
-[2022.06.05-19.30.06:463][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
-[2022.06.05-19.30.06:464][ 19]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.097
-[2022.06.05-19.30.06:513][ 19]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/School/pientra/p1/p1_Cube_004] ([1] browsable assets)...
-[2022.06.05-19.30.06:522][ 19]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/School/pientra/p1/p1_Cube_004.p1_Cube_004]
-[2022.06.05-19.30.06:522][ 19]OBJ SavePackage: Finished generating thumbnails for package [/Game/School/pientra/p1/p1_Cube_004]
-[2022.06.05-19.30.06:996][ 19]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/p1_Cube_004_Auto1990BE32E4DE613D125F011BA0EB433B0.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/p1/p1_Cube_004_Auto1.uasset'
-[2022.06.05-19.30.06:996][ 19]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/School/pientra/p1/Material_019] ([1] browsable assets)...
-[2022.06.05-19.30.07:003][ 19]OBJ SavePackage:     Rendered thumbnail for [Material /Game/School/pientra/p1/Material_019.Material_019]
-[2022.06.05-19.30.07:003][ 19]OBJ SavePackage: Finished generating thumbnails for package [/Game/School/pientra/p1/Material_019]
-[2022.06.05-19.30.07:009][ 19]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Material_019_Auto1ADF664C045B6752C250141BC5FE28E5F.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/p1/Material_019_Auto1.uasset'
-[2022.06.05-19.30.07:009][ 19]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/School/pientra/p1/p1_Cube_003] ([1] browsable assets)...
-[2022.06.05-19.30.07:016][ 19]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/School/pientra/p1/p1_Cube_003.p1_Cube_003]
-[2022.06.05-19.30.07:016][ 19]OBJ SavePackage: Finished generating thumbnails for package [/Game/School/pientra/p1/p1_Cube_003]
-[2022.06.05-19.30.07:022][ 19]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/p1_Cube_003_Auto1279CF561454B4F4FEEE95CBBEC5BE021.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/p1/p1_Cube_003_Auto1.uasset'
-[2022.06.05-19.30.07:023][ 19]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/School/pientra/p1/Material_020] ([1] browsable assets)...
-[2022.06.05-19.30.07:029][ 19]OBJ SavePackage:     Rendered thumbnail for [Material /Game/School/pientra/p1/Material_020.Material_020]
-[2022.06.05-19.30.07:029][ 19]OBJ SavePackage: Finished generating thumbnails for package [/Game/School/pientra/p1/Material_020]
-[2022.06.05-19.30.07:035][ 19]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Material_020_Auto1B4E1CDEB4B3B49D0034D66BAE6592734.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/p1/Material_020_Auto1.uasset'
-[2022.06.05-19.30.07:036][ 19]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/School/pientra/p1/p1_Person] ([1] browsable assets)...
-[2022.06.05-19.30.07:042][ 19]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/School/pientra/p1/p1_Person.p1_Person]
-[2022.06.05-19.30.07:042][ 19]OBJ SavePackage: Finished generating thumbnails for package [/Game/School/pientra/p1/p1_Person]
-[2022.06.05-19.30.07:042][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/School/pientra/p1/p1_Person" FILE="../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/p1/p1_Person_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2022.06.05-19.30.07:065][ 19]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/p1_Person_Auto1EF016F7A42AF36F5A2FA85845258B39D.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/p1/p1_Person_Auto1.uasset'
-[2022.06.05-19.30.07:065][ 19]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/School/pientra/p1/Default_OBJ] ([1] browsable assets)...
-[2022.06.05-19.30.07:071][ 19]OBJ SavePackage:     Rendered thumbnail for [Material /Game/School/pientra/p1/Default_OBJ.Default_OBJ]
-[2022.06.05-19.30.07:071][ 19]OBJ SavePackage: Finished generating thumbnails for package [/Game/School/pientra/p1/Default_OBJ]
-[2022.06.05-19.30.07:078][ 19]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Default_OBJ_Auto1C148FD1B4CAEA7E2EA929FB4E7631E49.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/p1/Default_OBJ_Auto1.uasset'
-[2022.06.05-19.30.07:415][ 19]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/School/pientra/p1/p1_piętro1] ([1] browsable assets)...
-[2022.06.05-19.30.07:422][ 19]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/School/pientra/p1/p1_piętro1.p1_piętro1]
-[2022.06.05-19.30.07:422][ 19]OBJ SavePackage: Finished generating thumbnails for package [/Game/School/pientra/p1/p1_piętro1]
-[2022.06.05-19.30.07:440][ 19]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/p1_piętro1_Auto14C5B2FAF4EA1C1A9646D41A1A99214CA.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/p1/p1_piętro1_Auto1.uasset'
-[2022.06.05-19.30.07:441][ 19]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/School/pientra/p1/Default_OBJ_004] ([1] browsable assets)...
-[2022.06.05-19.30.07:447][ 19]OBJ SavePackage:     Rendered thumbnail for [Material /Game/School/pientra/p1/Default_OBJ_004.Default_OBJ_004]
-[2022.06.05-19.30.07:447][ 19]OBJ SavePackage: Finished generating thumbnails for package [/Game/School/pientra/p1/Default_OBJ_004]
-[2022.06.05-19.30.07:453][ 19]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Default_OBJ_004_Auto1D5ED2CB341CB7571FCDE6DAA203CC3E8.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/p1/Default_OBJ_004_Auto1.uasset'
-[2022.06.05-19.30.07:453][ 19]LogFileHelpers: Auto-saving content packages took 0.990
-[2022.06.05-19.30.28:709][756]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:\Dane\Gallex\prakGallex\5tag\pientra\p2\piętro2.FBX)
-[2022.06.05-19.30.28:718][756]LogFbx: Loading FBX Scene from F:\Dane\Gallex\prakGallex\5tag\pientra\p2\piętro2.FBX
-[2022.06.05-19.30.28:811][756]LogFbx: FBX Scene Loaded Succesfully
-[2022.06.05-19.30.30:019][756]LogSlate: Window 'FBX Import Options' being destroyed
-[2022.06.05-19.30.30:437][756]LogMaterial: Display: Missing cached shader map for material Default_OBJ, compiling. 
-[2022.06.05-19.30.30:544][756]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 18
-[2022.06.05-19.30.30:544][756]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 16
-[2022.06.05-19.30.30:544][756]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 14
-[2022.06.05-19.30.30:544][756]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 12
-[2022.06.05-19.30.30:545][756]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 10
-[2022.06.05-19.30.30:545][756]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 8
-[2022.06.05-19.30.30:545][756]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 6
-[2022.06.05-19.30.30:545][756]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 4
-[2022.06.05-19.30.30:545][756]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 2
-[2022.06.05-19.30.30:562][756]LogStaticMesh: Building static mesh piętro2...
-[2022.06.05-19.30.30:618][756]LogStaticMesh: Built static mesh [0.06s] /Game/School/pientra/p2/piętro2.piętro2
-[2022.06.05-19.30.30:629][756]LogStaticMesh: Warning: piętro2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2022.06.05-19.30.30:630][756]LogStaticMesh: Warning: piętro2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
-[2022.06.05-19.30.30:659][756]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2022.06.05-19.30.30:660][756]FBXImport: Warning: piętro2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2022.06.05-19.30.30:660][756]FBXImport: Warning: piętro2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2022.06.05-19.30.33:113][980]LogSlate: Took 0.056855 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2022.06.05-19.30.34:458][115]LogSlate: Window 'Message Log' being destroyed
-[2022.06.05-19.30.34:464][115]LogSlate: Window 'Message Log' being destroyed
-[2022.06.05-19.30.45:172][265]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/School/pientra/p2/piętro2.piętro2
-[2022.06.05-19.30.52:300][266]LogRenderer: Reallocating scene render targets to support 1404x812 Format 10 NumSamples 1 (Frame:1).
-[2022.06.05-19.30.52:301][266]LogD3D12RHI: Creating RTPSO with 102 shaders (100 cached, 2 new) took 10.00 ms. Compile time 3.35 ms, link time 6.51 ms.
-[2022.06.05-19.31.06:903][826]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
-[2022.06.05-19.31.12:152][826]LogSlate: Window 'Delete Assets' being destroyed
-[2022.06.05-19.31.13:604][826]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
-[2022.06.05-19.31.13:604][826]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2022.06.05-19.31.13:691][826]LogUObjectGlobals: Force Deleting 1 Package(s):
-	Asset Name: /Game/School/pientra/p2/piętro2.piętro2
-[2022.06.05-19.31.33:864][826]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
-[2022.06.05-19.32.18:006][305]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
-[2022.06.05-19.32.19:483][305]LogSlate: Window 'Delete Assets' being destroyed
-[2022.06.05-19.32.19:639][305]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
-[2022.06.05-19.32.26:698][470]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:\Dane\Gallex\prakGallex\5tag\pientra\p2\p2.fbx)
-[2022.06.05-19.32.26:708][470]LogFbx: Loading FBX Scene from F:\Dane\Gallex\prakGallex\5tag\pientra\p2\p2.fbx
-[2022.06.05-19.32.26:720][470]LogFbx: FBX Scene Loaded Succesfully
-[2022.06.05-19.32.28:606][470]LogSlate: Window 'FBX Import Options' being destroyed
-[2022.06.05-19.32.28:630][470]LogMaterial: Display: Missing cached shader map for material Material_019, compiling. 
-[2022.06.05-19.32.28:638][470]LogFbx: Display: Triangulating static mesh Cube.004
-[2022.06.05-19.32.28:639][470]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 18
-[2022.06.05-19.32.28:639][470]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 16
-[2022.06.05-19.32.28:639][470]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 14
-[2022.06.05-19.32.28:639][470]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 12
-[2022.06.05-19.32.28:639][470]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 10
-[2022.06.05-19.32.28:639][470]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 8
-[2022.06.05-19.32.28:639][470]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 6
-[2022.06.05-19.32.28:639][470]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 4
-[2022.06.05-19.32.28:639][470]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 2
-[2022.06.05-19.32.28:651][470]LogStaticMesh: Building static mesh p2_Cube_004...
-[2022.06.05-19.32.28:653][470]LogStaticMesh: Built static mesh [0.00s] /Game/School/pientra/p2/p2_Cube_004.p2_Cube_004
-[2022.06.05-19.32.28:671][470]LogMaterial: Display: Missing cached shader map for material Material_020, compiling. 
-[2022.06.05-19.32.28:685][470]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 18
-[2022.06.05-19.32.28:685][470]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 16
-[2022.06.05-19.32.28:685][470]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 14
-[2022.06.05-19.32.28:685][470]LogFbx: Display: Triangulating static mesh Cube.003
-[2022.06.05-19.32.28:687][470]LogStaticMesh: Building static mesh p2_Cube_003...
-[2022.06.05-19.32.28:690][470]LogStaticMesh: Built static mesh [0.00s] /Game/School/pientra/p2/p2_Cube_003.p2_Cube_003
-[2022.06.05-19.32.28:707][470]LogMaterial: Display: Missing cached shader map for material Default_OBJ, compiling. 
-[2022.06.05-19.32.28:783][470]LogStaticMesh: Building static mesh p2_Person...
-[2022.06.05-19.32.28:867][470]LogStaticMesh: Built static mesh [0.08s] /Game/School/pientra/p2/p2_Person.p2_Person
-[2022.06.05-19.32.28:951][470]LogMaterial: Display: Missing cached shader map for material Default_OBJ_005, compiling. 
-[2022.06.05-19.32.29:025][470]LogStaticMesh: Building static mesh p2_piętro2...
-[2022.06.05-19.32.29:116][470]LogStaticMesh: Built static mesh [0.09s] /Game/School/pientra/p2/p2_piętro2.p2_piętro2
-[2022.06.05-19.32.29:132][470]LogStaticMesh: Warning: p2_piętro2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2022.06.05-19.32.29:132][470]LogStaticMesh: Warning: p2_piętro2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
-[2022.06.05-19.32.29:159][470]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 48
-[2022.06.05-19.32.29:187][470]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 43
-[2022.06.05-19.32.29:204][470]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2022.06.05-19.32.29:204][470]FBXImport: Warning: p2_piętro2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2022.06.05-19.32.29:204][470]FBXImport: Warning: p2_piętro2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2022.06.05-19.32.29:353][471]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 39
-[2022.06.05-19.32.29:575][475]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 35
-[2022.06.05-19.32.29:726][481]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 32
-[2022.06.05-19.32.29:748][482]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 29
-[2022.06.05-19.32.29:769][483]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 26
-[2022.06.05-19.32.29:791][484]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 23
-[2022.06.05-19.32.29:812][485]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 21
-[2022.06.05-19.32.29:832][486]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 19
-[2022.06.05-19.32.29:855][487]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 17
-[2022.06.05-19.32.30:017][494]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 15
-[2022.06.05-19.32.30:468][510]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 13
-[2022.06.05-19.32.30:567][515]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 11
-[2022.06.05-19.32.30:567][515]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 10
-[2022.06.05-19.32.30:690][520]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 9
-[2022.06.05-19.32.30:764][523]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 8
-[2022.06.05-19.32.30:899][529]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 7
-[2022.06.05-19.32.30:963][532]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 6
-[2022.06.05-19.32.30:964][532]LogSlate: Window 'Message Log' being destroyed
-[2022.06.05-19.32.30:976][532]LogSlate: Window 'Message Log' being destroyed
-[2022.06.05-19.32.31:046][535]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 5
-[2022.06.05-19.32.31:231][540]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 4
-[2022.06.05-19.32.31:235][540]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 3
-[2022.06.05-19.32.31:379][546]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 2
-[2022.06.05-19.32.31:379][546]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 1
-[2022.06.05-19.32.49:635][546]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
-[2022.06.05-19.32.49:636][546]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
-[2022.06.05-19.32.49:637][546]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_3:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
-[2022.06.05-19.32.53:447][874]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
-[2022.06.05-19.32.53:448][874]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
-[2022.06.05-19.32.53:449][874]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_3:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
-[2022.06.05-19.37.17:843][992]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
-[2022.06.05-19.37.17:844][992]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
-[2022.06.05-19.37.17:845][992]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_3:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
-[2022.06.05-19.37.21:810][423]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
-[2022.06.05-19.37.21:811][423]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
-[2022.06.05-19.37.21:812][423]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_3:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
-[2022.06.05-19.37.24:033][658]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
-[2022.06.05-19.37.24:034][658]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
-[2022.06.05-19.37.24:035][658]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Bud_C_0.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Engine/Transient.World_3:PersistentLevel.Bud_C_0.StaticMesh' which is static to it. Aborting.
-[2022.06.05-19.38.02:563][  1]SourceControl: fatal: F:/Dane/EpicProgram/UE_4.24/Engine/Content: 'F:/Dane/EpicProgram/UE_4.24/Engine/Content' is outside repository at 'F:/Dane/EpicProjects/ZwiadSpecKolo'
-[2022.06.05-19.38.02:813][  1]EditorErrors: Warning: No assets to check in!
-[2022.06.05-19.38.06:713][398]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
-[2022.06.05-19.38.08:575][398]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/FirstPersonExampleMap2E67A3EC4EE7205F9CED00AF30A387B0.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2022.06.05-19.38.09:047][398]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/FirstPersonExampleMap_BuiltData022F236D41F6AC9AD72BA0AE7A7358FC.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2022.06.05-19.38.09:064][398]AssetCheck: New page: Asset Save: multiple assets
-[2022.06.05-19.38.09:065][398]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
-[2022.06.05-19.38.09:065][398]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
-[2022.06.05-19.38.14:913][ 20]SourceControl: fatal: F:/Dane/EpicProgram/UE_4.24/Engine/Content: 'F:/Dane/EpicProgram/UE_4.24/Engine/Content' is outside repository at 'F:/Dane/EpicProjects/ZwiadSpecKolo'
-[2022.06.05-19.38.43:892][ 20]LogSlate: Window 'Submit Files' being destroyed
-[2022.06.05-19.38.52:674][ 20]LogSourceControl: commit successful: [testy-budynku ef89df0] dwa piętra 1 i 2 bez podlogi
-[2022.06.05-19.38.52:710][ 20]SourceControl: [testy-budynku ef89df0] dwa piętra 1 i 2 bez podlogi
-[2022.06.05-19.38.52:710][ 20]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
-[2022.06.05-19.38.52:723][ 20]SourceControl: Commited [testy-budynku ef89df0] dwa piętra 1 i 2 bez podlogi.
-[2022.06.05-19.40.29:888][589]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/School/pientra/p2/p2_piętro2.p2_piętro2
-[2022.06.05-19.48.06:534][185]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
-[2022.06.05-19.48.06:716][185]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/FirstPersonExampleMap_Auto21F385FDE48C20165BADE3BBBDBB5870A.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
-[2022.06.05-19.48.06:717][185]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.216
-[2022.06.05-19.48.06:717][185]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.216
-[2022.06.05-19.48.06:717][185]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/School/pientra/Bud] ([1] browsable assets)...
-[2022.06.05-19.48.06:726][185]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/School/pientra/Bud.Bud]
-[2022.06.05-19.48.06:726][185]OBJ SavePackage: Finished generating thumbnails for package [/Game/School/pientra/Bud]
-[2022.06.05-19.48.06:726][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/School/pientra/Bud" FILE="../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/Bud_Auto2.uasset" SILENT=false AUTOSAVING=true
-[2022.06.05-19.48.06:736][185]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Bud_Auto2681F11A64D5300FB8AFE4A9831909EDB.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/Bud_Auto2.uasset'
-[2022.06.05-19.48.06:737][185]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/School/pientra/p2/Default_OBJ_005] ([1] browsable assets)...
-[2022.06.05-19.48.06:743][185]OBJ SavePackage:     Rendered thumbnail for [Material /Game/School/pientra/p2/Default_OBJ_005.Default_OBJ_005]
-[2022.06.05-19.48.06:743][185]OBJ SavePackage: Finished generating thumbnails for package [/Game/School/pientra/p2/Default_OBJ_005]
-[2022.06.05-19.48.06:750][185]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Default_OBJ_005_Auto2C598029B4AAF298356171EA37F320A32.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/p2/Default_OBJ_005_Auto2.uasset'
-[2022.06.05-19.48.06:750][185]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/School/pientra/p2/p2_Cube_004] ([1] browsable assets)...
-[2022.06.05-19.48.06:757][185]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/School/pientra/p2/p2_Cube_004.p2_Cube_004]
-[2022.06.05-19.48.06:757][185]OBJ SavePackage: Finished generating thumbnails for package [/Game/School/pientra/p2/p2_Cube_004]
-[2022.06.05-19.48.06:764][185]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/p2_Cube_004_Auto2D404D0D64B47B45B073EDC859BBC569A.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/p2/p2_Cube_004_Auto2.uasset'
-[2022.06.05-19.48.06:764][185]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/School/pientra/p2/Material_019] ([1] browsable assets)...
-[2022.06.05-19.48.06:771][185]OBJ SavePackage:     Rendered thumbnail for [Material /Game/School/pientra/p2/Material_019.Material_019]
-[2022.06.05-19.48.06:771][185]OBJ SavePackage: Finished generating thumbnails for package [/Game/School/pientra/p2/Material_019]
-[2022.06.05-19.48.06:777][185]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Material_019_Auto2BAA1DE0A4D67331124596C8E51C932FE.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/p2/Material_019_Auto2.uasset'
-[2022.06.05-19.48.06:778][185]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/School/pientra/p2/p2_Cube_003] ([1] browsable assets)...
-[2022.06.05-19.48.06:785][185]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/School/pientra/p2/p2_Cube_003.p2_Cube_003]
-[2022.06.05-19.48.06:785][185]OBJ SavePackage: Finished generating thumbnails for package [/Game/School/pientra/p2/p2_Cube_003]
-[2022.06.05-19.48.06:792][185]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/p2_Cube_003_Auto21CE209F84FEEAD1635BDD7949AD02A46.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/p2/p2_Cube_003_Auto2.uasset'
-[2022.06.05-19.48.06:792][185]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/School/pientra/p2/Material_020] ([1] browsable assets)...
-[2022.06.05-19.48.06:799][185]OBJ SavePackage:     Rendered thumbnail for [Material /Game/School/pientra/p2/Material_020.Material_020]
-[2022.06.05-19.48.06:799][185]OBJ SavePackage: Finished generating thumbnails for package [/Game/School/pientra/p2/Material_020]
-[2022.06.05-19.48.06:805][185]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Material_020_Auto22A8A0FE748FBDADE9FF359A0E9BC5487.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/p2/Material_020_Auto2.uasset'
-[2022.06.05-19.48.06:805][185]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/School/pientra/p2/p2_Person] ([1] browsable assets)...
-[2022.06.05-19.48.06:812][185]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/School/pientra/p2/p2_Person.p2_Person]
-[2022.06.05-19.48.06:812][185]OBJ SavePackage: Finished generating thumbnails for package [/Game/School/pientra/p2/p2_Person]
-[2022.06.05-19.48.06:812][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/School/pientra/p2/p2_Person" FILE="../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/p2/p2_Person_Auto2.uasset" SILENT=false AUTOSAVING=true
-[2022.06.05-19.48.06:835][185]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/p2_Person_Auto25DC36D0B467660211978D78BBAC9B98C.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/p2/p2_Person_Auto2.uasset'
-[2022.06.05-19.48.07:079][185]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/School/pientra/p2/Default_OBJ] ([1] browsable assets)...
-[2022.06.05-19.48.07:091][185]OBJ SavePackage:     Rendered thumbnail for [Material /Game/School/pientra/p2/Default_OBJ.Default_OBJ]
-[2022.06.05-19.48.07:091][185]OBJ SavePackage: Finished generating thumbnails for package [/Game/School/pientra/p2/Default_OBJ]
-[2022.06.05-19.48.07:098][185]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Default_OBJ_Auto26F66A00E42D31B5193A4C4833F67D2A2.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/p2/Default_OBJ_Auto2.uasset'
-[2022.06.05-19.48.07:098][185]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/School/pientra/p2/p2_piętro2] ([1] browsable assets)...
-[2022.06.05-19.48.07:105][185]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/School/pientra/p2/p2_piętro2.p2_piętro2]
-[2022.06.05-19.48.07:105][185]OBJ SavePackage: Finished generating thumbnails for package [/Game/School/pientra/p2/p2_piętro2]
-[2022.06.05-19.48.07:125][185]LogSavePackage: Moving '../../../../../EpicProjects/ZwiadSpecKolo/Saved/p2_piętro2_Auto28C05D02F4728FCEA773BBF8516565EBD.tmp' to '../../../../../EpicProjects/ZwiadSpecKolo/Saved/Autosaves/Game/School/pientra/p2/p2_piętro2_Auto2.uasset'
-[2022.06.05-19.48.07:125][185]LogFileHelpers: Auto-saving content packages took 0.408
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Engine.ini]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2022.06.05-20.44.41:256][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.RayTracing:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Engine.ini]
+[2022.06.05-20.44.41:257][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Engine.ini]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Engine.ini]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.06.05-20.44.41:257][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.06.05-20.44.41:258][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.06.05-20.44.41:258][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.06.05-20.44.41:258][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.06.05-20.44.41:258][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.06.05-20.44.41:258][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.06.05-20.44.41:258][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Engine.ini]
+[2022.06.05-20.44.41:258][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Engine.ini]
+[2022.06.05-20.44.41:260][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.06.05-20.44.41:260][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.06.05-20.44.41:261][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.06.05-20.44.41:261][  0]LogInit: Selected Device Profile: [Windows]
+[2022.06.05-20.44.41:261][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.06.05-20.44.41:263][  0]LogHAL: Display: Platform has ~ 64 GB [68634550272 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.06.05-20.44.41:263][  0]LogInit: Going up to parent DeviceProfile []
+[2022.06.05-20.44.41:263][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.06.05-20.44.41:263][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
+[2022.06.05-20.44.41:263][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Scalability.ini]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.06.05-20.44.41:264][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Config/Windows/Engine.ini]
+[2022.06.05-20.44.41:264][  0]LogInit: Computer: DESKTOP-SEF6IUT
+[2022.06.05-20.44.41:264][  0]LogInit: User: HyperCub3
+[2022.06.05-20.44.41:264][  0]LogInit: CPU Page size=4096, Cores=8
+[2022.06.05-20.44.41:264][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.06.05-20.44.41:264][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx)
+[2022.06.05-20.44.41:264][  0]LogMemory: Platform Memory Stats for Windows
+[2022.06.05-20.44.41:264][  0]LogMemory: Process Physical Memory: 111.38 MB used, 111.38 MB peak
+[2022.06.05-20.44.41:264][  0]LogMemory: Process Virtual Memory: 107.20 MB used, 107.20 MB peak
+[2022.06.05-20.44.41:265][  0]LogMemory: Physical Memory: 15070.74 MB used,  50384.27 MB free, 65455.01 MB total
+[2022.06.05-20.44.41:265][  0]LogMemory: Virtual Memory: 5223.81 MB used,  134212504.00 MB free, 134217728.00 MB total
+[2022.06.05-20.44.41:267][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.06.05-20.44.41:292][  0]LogInit: Using OS detected language (pl-PL).
+[2022.06.05-20.44.41:292][  0]LogInit: Using OS detected locale (pl-PL).
+[2022.06.05-20.44.41:292][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
+[2022.06.05-20.44.41:293][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
+[2022.06.05-20.44.41:293][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
+[2022.06.05-20.44.41:293][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
+[2022.06.05-20.44.41:293][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
+[2022.06.05-20.44.41:293][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
+[2022.06.05-20.44.41:293][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
+[2022.06.05-20.44.41:293][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
+[2022.06.05-20.44.41:294][  0]LogInit: Setting process to per monitor DPI aware
+[2022.06.05-20.44.41:322][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.06.05-20.44.41:323][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.06.05-20.44.41:429][  0]LogD3D12RHI: Aftermath initialized
+[2022.06.05-20.44.41:429][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/DirectX/x64).
+[2022.06.05-20.44.41:479][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2022.06.05-20.44.41:590][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce RTX 2080 (Max supported Feature Level 12_1)
+[2022.06.05-20.44.41:590][  0]LogD3D12RHI: Adapter has 8010MB of dedicated video memory, 0MB of dedicated system memory, and 32727MB of shared system memory, 2 output[s]
+[2022.06.05-20.44.41:597][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (Max supported Feature Level 12_1)
+[2022.06.05-20.44.41:597][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 32727MB of shared system memory, 0 output[s]
+[2022.06.05-20.44.41:597][  0]LogD3D12RHI: Forcing D3D12.AsyncDeferredDeletion=0 as a workaround for a deadlock.
+[2022.06.05-20.44.41:597][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2022.06.05-20.44.41:604][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2022.06.05-20.44.41:668][  0]LogD3D12RHI: D3D12 ray tracing enabled.
+[2022.06.05-20.44.41:668][  0]LogD3D12RHI: The system supports ID3D12Device1.
+[2022.06.05-20.44.41:668][  0]LogD3D12RHI: The system supports ID3D12Device2.
+[2022.06.05-20.44.41:738][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2022.06.05-20.44.41:738][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2022.06.05-20.44.41:739][  0]LogD3D12RHI:     GPU DeviceId: 0x1e87 (for the marketing name, search the web for "GPU Device Id")
+[2022.06.05-20.44.41:739][  0]LogWindows: EnumDisplayDevices:
+[2022.06.05-20.44.41:739][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
+[2022.06.05-20.44.41:739][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2022.06.05-20.44.41:739][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2022.06.05-20.44.41:740][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2022.06.05-20.44.41:740][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2022.06.05-20.44.41:740][  0]LogD3D12RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2022.06.05-20.44.41:740][  0]LogD3D12RHI:   Driver Version: 456.71 (internal:27.21.14.5671, unified:456.71)
+[2022.06.05-20.44.41:740][  0]LogD3D12RHI:      Driver Date: 9-30-2020
+[2022.06.05-20.44.41:740][  0]LogRHI: Texture pool is 4562 MB (70% of 6517 MB)
+[2022.06.05-20.44.41:740][  0]LogD3D12RHI: Async texture creation enabled
+[2022.06.05-20.44.41:740][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2022.06.05-20.44.41:960][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.06.05-20.44.41:980][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.06.05-20.44.41:980][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.06.05-20.44.41:980][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2022.06.05-20.44.41:980][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.06.05-20.44.41:980][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2022.06.05-20.44.41:980][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2022.06.05-20.44.41:980][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.06.05-20.44.41:980][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2022.06.05-20.44.41:980][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.06.05-20.44.41:980][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.06.05-20.44.41:980][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2022.06.05-20.44.41:980][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.06.05-20.44.41:980][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2022.06.05-20.44.41:980][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2022.06.05-20.44.41:980][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.06.05-20.44.41:980][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2022.06.05-20.44.41:980][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.06.05-20.44.41:980][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.06.05-20.44.41:992][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.06.05-20.44.41:992][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.06.05-20.44.41:997][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.06.05-20.44.42:002][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.06.05-20.44.42:007][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.06.05-20.44.42:011][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.06.05-20.44.42:016][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.06.05-20.44.42:021][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.06.05-20.44.42:036][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.06.05-20.44.42:036][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.06.05-20.44.42:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.06.05-20.44.42:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.06.05-20.44.42:050][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.06.05-20.44.42:055][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.06.05-20.44.42:060][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.06.05-20.44.42:064][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.06.05-20.44.42:065][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.06.05-20.44.42:066][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.06.05-20.44.42:078][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (../../../../../EpicProjects/ZwiadSpecKolo/Intermediate/Shaders/WorkingDirectory/33672/).
+[2022.06.05-20.44.42:078][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/HyperCub3/AppData/Local/Temp/UnrealShaderWorkingDir/EE2AC1FB4321CC4538A15AB656A39A08/'.
+[2022.06.05-20.44.42:078][  0]LogXGEController: Cleaning working directory: C:/Users/HyperCub3/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2022.06.05-20.44.42:079][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.06.05-20.44.42:079][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.06.05-20.44.42:079][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.06.05-20.44.42:613][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.06.05-20.44.42:659][  0]LogDerivedDataCache: Loaded boot cache 0.05s 100MB C:/Users/HyperCub3/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2022.06.05-20.44.42:660][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/HyperCub3/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2022.06.05-20.44.42:660][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../EpicProjects/ZwiadSpecKolo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.06.05-20.44.42:660][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.06.05-20.44.42:660][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../EpicProjects/ZwiadSpecKolo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.06.05-20.44.42:660][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.06.05-20.44.42:667][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.06.05-20.44.42:667][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.06.05-20.44.42:667][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.06.05-20.44.42:668][  0]LogDerivedDataCache: Using Local data cache path C:/Users/HyperCub3/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.06.05-20.44.42:668][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.06.05-20.44.42:668][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.06.05-20.44.42:689][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2022.06.05-20.44.42:691][  0]LogSlate: Using FreeType 2.10.0
+[2022.06.05-20.44.42:692][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.06.05-20.44.42:732][  0]LogAssetRegistry: FAssetRegistry took 0.0018 seconds to start up
+[2022.06.05-20.44.42:930][  0]LogInit: Selected Device Profile: [Windows]
+[2022.06.05-20.44.43:042][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.06.05-20.44.43:042][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.06.05-20.44.43:042][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.06.05-20.44.43:042][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.06.05-20.44.43:042][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.06.05-20.44.43:119][  0]LogNetVersion: ZwiadSpecKolo 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 4199172908)
+[2022.06.05-20.44.43:824][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.018184 seconds
+[2022.06.05-20.44.43:828][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2022.06.05-20.44.43:828][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2022.06.05-20.44.43:828][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.06.05-20.44.43:888][  0]LogD3D12RHI: Creating RTPSO with 3 shaders (0 cached, 3 new) took 14.78 ms. Compile time 4.58 ms, link time 10.05 ms.
+[2022.06.05-20.44.44:130][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.06.05-20.44.44:132][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.06.05-20.44.44:163][  0]SourceControl: Source control is disabled
+[2022.06.05-20.44.44:504][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.06.05-20.44.44:510][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.06.05-20.44.44:510][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.06.05-20.44.44:567][  0]LogOcInput: OculusInput pre-init called
+[2022.06.05-20.44.45:018][  0]LogEngine: Initializing Engine...
+[2022.06.05-20.44.45:065][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2022.06.05-20.44.45:066][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.06.05-20.44.45:303][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.06.05-20.44.45:307][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.06.05-20.44.45:310][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.05-20.44.45:310][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.05-20.44.45:310][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.05-20.44.45:310][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.05-20.44.45:310][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.05-20.44.45:310][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.06.05-20.44.45:310][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.05-20.44.45:310][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.05-20.44.45:310][  0]LogAudio: Display: Using built-in audio occlusion.
+[2022.06.05-20.44.45:310][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.06.05-20.44.45:342][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2022.06.05-20.44.45:342][  0]LogAudioMixer: Display: Name: SONY TV (NVIDIA High Definition Audio)
+[2022.06.05-20.44.45:342][  0]LogAudioMixer: Display: Is Default: Yes
+[2022.06.05-20.44.45:342][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2022.06.05-20.44.45:342][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2022.06.05-20.44.45:342][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2022.06.05-20.44.45:342][  0]LogAudioMixer: Display: Channel Order:
+[2022.06.05-20.44.45:342][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.05-20.44.45:342][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.06.05-20.44.45:355][  0]LogAudioMixer: Display: Using Audio Device SONY TV (NVIDIA High Definition Audio)
+[2022.06.05-20.44.45:358][  0]LogInit: FAudioDevice initialized.
+[2022.06.05-20.44.45:358][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.06.05-20.44.45:400][  0]LogDerivedDataCache: Saved boot cache 0.04s 100MB C:/Users/HyperCub3/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2022.06.05-20.44.45:401][  0]LogInit: Texture streaming: Enabled
+[2022.06.05-20.44.45:406][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.06.05-20.44.45:406][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2022.06.05-20.44.45:409][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2022.06.05-20.44.45:433][  0]LogInit: Transaction tracking system initialized
+[2022.06.05-20.44.45:439][  0]BlueprintLog: New page: Editor Load
+[2022.06.05-20.44.45:456][  0]LocalizationService: Localization service is disabled
+[2022.06.05-20.44.45:475][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
+[2022.06.05-20.44.45:475][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
+[2022.06.05-20.44.45:475][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2022.06.05-20.44.45:628][  0]LogFileCache: Scanning file cache for directory 'F:/Dane/EpicProjects/ZwiadSpecKolo/Content/' took 0.00s
+[2022.06.05-20.44.45:628][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.06.05-20.44.45:628][  0]LogCook: Display: Mobile HDR setting 1
+[2022.06.05-20.44.46:076][  0]Cmd: MAP LOAD FILE="../../../../../EpicProjects/ZwiadSpecKolo/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.06.05-20.44.46:077][  0]LightingResults: New page: Lighting Build
+[2022.06.05-20.44.46:077][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.06.05-20.44.46:077][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.05-20.44.46:077][  0]MapCheck: New page: Map Check
+[2022.06.05-20.44.46:077][  0]LightingResults: New page: Lighting Build
+[2022.06.05-20.44.46:102][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2022.06.05-20.44.46:213][  0]LogLinker: Warning: While loading '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/Bud/zskv3.uasset' failed to load '/Game/School/pientra/Bud/None': Can't find file.
+[2022.06.05-20.44.46:213][  0]LogLinker: Warning: While loading '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/Bud/zskv3.uasset' failed to load '/Game/School/pientra/Bud/None': Can't find file.
+[2022.06.05-20.44.46:214][  0]LogLinker: Warning: While loading '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/Bud/zskv3.uasset' failed to load '/Game/School/pientra/Bud/None': Can't find file.
+[2022.06.05-20.44.46:214][  0]LogLinker: Warning: While loading '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/Bud/zskv3.uasset' failed to load '/Game/School/pientra/Bud/None': Can't find file.
+[2022.06.05-20.44.46:219][  0]LogLinker: Warning: While loading '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/Bud/zskv3.uasset' failed to load '/Game/School/pientra/Bud/None': Can't find file.
+[2022.06.05-20.44.46:219][  0]LoadErrors: Failed to load /Game/School/pientra/Bud/None.Material_0 Referenced by zskv3
+[2022.06.05-20.44.46:219][  0]LogLinker: Warning: While loading '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/Bud/zskv3.uasset' failed to load '/Game/School/pientra/Bud/None': Can't find file.
+[2022.06.05-20.44.46:219][  0]LoadErrors: Failed to load /Game/School/pientra/Bud/None.Material_0 Referenced by zskv3
+[2022.06.05-20.44.46:219][  0]LogLinker: Warning: While loading '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/Bud/zskv3.uasset' failed to load '/Game/School/pientra/Bud/None': Can't find file.
+[2022.06.05-20.44.46:219][  0]LoadErrors: Failed to load /Game/School/pientra/Bud/None.Material_0 Referenced by zskv3
+[2022.06.05-20.44.46:220][  0]LogLinker: Warning: While loading '../../../../../EpicProjects/ZwiadSpecKolo/Content/School/pientra/Bud/zskv3.uasset' failed to load '/Game/School/pientra/Bud/None': Can't find file.
+[2022.06.05-20.44.46:220][  0]LoadErrors: Failed to load /Game/School/pientra/Bud/None.Material_0 Referenced by zskv3
+[2022.06.05-20.44.46:493][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.06.05-20.44.46:497][  0]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.DefaultSceneRoot' is not static  (in blueprint "Bud"), cannot attach '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Bud_5.StaticMesh' which is static to it. Aborting.
+[2022.06.05-20.44.46:499][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.06.05-20.44.46:548][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2022.06.05-20.44.46:548][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.06.05-20.44.46:548][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,083ms to complete.
+[2022.06.05-20.44.46:548][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.472
+[2022.06.05-20.44.46:696][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.05-20.44.46:702][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.05-20.44.46:709][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.05-20.44.46:714][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.05-20.44.46:719][  0]LogCollectionManager: Loaded 0 collections in 0.000734 seconds
+[2022.06.05-20.44.46:729][  0]LogFileCache: Scanning file cache for directory 'F:/Dane/EpicProjects/ZwiadSpecKolo/Saved/Collections/' took 0.00s
+[2022.06.05-20.44.46:729][  0]LogFileCache: Scanning file cache for directory 'F:/Dane/EpicProjects/ZwiadSpecKolo/Content/Developers/HyperCub3/Collections/' took 0.00s
+[2022.06.05-20.44.46:729][  0]LogFileCache: Scanning file cache for directory 'F:/Dane/EpicProjects/ZwiadSpecKolo/Content/Collections/' took 0.00s
+[2022.06.05-20.44.46:729][  0]LogContentBrowser: Native class hierarchy populated in 0.0058 seconds. Added 3015 classes and 717 folders.
+[2022.06.05-20.44.46:730][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2022.06.05-20.44.46:764][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2022.06.05-20.44.46:767][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2022.06.05-20.44.47:550][  0]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.06.05-20.44.48:083][  0]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.06.05-20.44.48:086][  0]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.06.05-20.44.48:140][  0]LogRenderer: Reallocating scene render targets to support 1084x408 Format 10 NumSamples 1 (Frame:1).
+[2022.06.05-20.44.48:369][  0]LogD3D12RHI: Creating RTPSO with 91 shaders (0 cached, 91 new) took 109.27 ms. Compile time 98.47 ms, link time 10.67 ms.
+[2022.06.05-20.44.48:406][  0]LogD3D12RHI: Creating RTPSO with 3 shaders (3 cached, 0 new) took 33.57 ms. Compile time 0.02 ms, link time 33.54 ms.
+[2022.06.05-20.44.48:761][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2022.06.05-20.44.48:761][  0]LogLoad: (Engine Initialization) Total time: 9.26 seconds
+[2022.06.05-20.44.48:761][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.06.05-20.44.48:814][  0]LogAssetRegistry: Asset discovery search completed in 6.0826 seconds
+[2022.06.05-20.44.48:816][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2022.06.05-20.44.48:817][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.06.05-20.44.48:905][  0]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.06.05-20.44.48:960][  3]LogD3D12RHI: Creating RTPSO with 98 shaders (97 cached, 1 new) took 10.40 ms. Compile time 6.35 ms, link time 3.90 ms.
+[2022.06.05-20.45.08:553][346]LogSlate: Window 'Message Log' being destroyed
+[2022.06.05-20.45.08:558][346]LogSlate: Window 'Message Log' being destroyed
+[2022.06.05-20.45.41:726][431]SourceControl: fatal: F:/Dane/EpicProgram/UE_4.24/Engine/Content: 'F:/Dane/EpicProgram/UE_4.24/Engine/Content' is outside repository at 'F:/Dane/EpicProjects/ZwiadSpecKolo'
+[2022.06.05-20.45.54:841][431]LogSlate: Window 'Submit Files' being destroyed
+[2022.06.05-20.45.56:554][431]LogSourceControl: commit successful: [testy-budynku b285fcc] teraz są piętra 1 2
+[2022.06.05-20.45.56:687][431]SourceControl: [testy-budynku b285fcc] teraz są piętra 1 2
+[2022.06.05-20.45.56:687][431]SourceControl:  16 files changed, 0 insertions(+), 0 deletions(-)
+[2022.06.05-20.45.56:687][431]SourceControl:  rewrite Content/School/pientra/Bud.uasset (90%)
+[2022.06.05-20.45.56:687][431]SourceControl:  create mode 100644 Content/School/pientra/p1/Default_OBJ.uasset
+[2022.06.05-20.45.56:687][431]SourceControl:  create mode 100644 Content/School/pientra/p1/Default_OBJ_004.uasset
+[2022.06.05-20.45.56:687][431]SourceControl:  create mode 100644 Content/School/pientra/p1/Material_019.uasset
+[2022.06.05-20.45.56:687][431]SourceControl:  create mode 100644 Content/School/pientra/p1/Material_020.uasset
+[2022.06.05-20.45.56:687][431]SourceControl:  create mode 100644 Content/School/pientra/p1/p1_Cube_003.uasset
+[2022.06.05-20.45.56:687][431]SourceControl:  create mode 100644 Content/School/pientra/p1/p1_Cube_004.uasset
+[2022.06.05-20.45.56:687][431]SourceControl:  create mode 100644 Content/School/pientra/p1/p1_Person.uasset
+[2022.06.05-20.45.56:687][431]SourceControl:  create mode 100644 Content/School/pientra/p2/Default_OBJ.uasset
+[2022.06.05-20.45.56:687][431]SourceControl:  create mode 100644 Content/School/pientra/p2/Default_OBJ_005.uasset
+[2022.06.05-20.45.56:687][431]SourceControl:  create mode 100644 Content/School/pientra/p2/Material_019.uasset
+[2022.06.05-20.45.56:687][431]SourceControl:  create mode 100644 Content/School/pientra/p2/Material_020.uasset
+[2022.06.05-20.45.56:687][431]SourceControl:  create mode 100644 Content/School/pientra/p2/p2_Cube_003.uasset
+[2022.06.05-20.45.56:687][431]SourceControl:  create mode 100644 Content/School/pientra/p2/p2_Cube_004.uasset
+[2022.06.05-20.45.56:687][431]SourceControl:  create mode 100644 Content/School/pientra/p2/p2_Person.uasset
+[2022.06.05-20.45.56:699][431]SourceControl: Commited [testy-budynku b285fcc] teraz są piętra 1 2.
